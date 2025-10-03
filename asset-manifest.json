@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/StudyMachine5000/static/css/main.9a761f55.css",
+    "main.js": "/StudyMachine5000/static/js/main.29c1e7ea.js",
+    "index.html": "/StudyMachine5000/index.html",
+    "main.9a761f55.css.map": "/StudyMachine5000/static/css/main.9a761f55.css.map",
+    "main.29c1e7ea.js.map": "/StudyMachine5000/static/js/main.29c1e7ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a761f55.css",
+    "static/js/main.29c1e7ea.js"
+  ]
+}
