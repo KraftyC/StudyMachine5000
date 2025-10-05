@@ -19,7 +19,7 @@ export default function SelectCountModal(props) {
   }
 
   return (
-    <Modal { ...props } centered backdrop="static" data-bs-theme="dark">
+    <Modal { ...props } backdrop="static" data-bs-theme="dark">
       <Modal.Header closeButton>
         <Modal.Title className="fw-bold">Specify Question Count</Modal.Title>
       </Modal.Header>
