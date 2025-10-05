@@ -1,0 +1,37 @@
+// Override Bootstrap variables BEFORE importing bootstrap
+$primary: #5865F2;
+$secondary: #222327;
+$success: #43A25A;
+$danger: #D6363F;
+$warning: #b8c924;
+$info: #5133F2;
+$light: #f8f9fa;
+$dark: #343a40;
+
+// Optional: add your own custom color
+$accent: #da6d25;
+
+// Example: custom text colors for buttons
+$btn-primary-color: #ffffff;
+$btn-secondary-color: #ffffff;
+$btn-success-color: #ffffff;
+$btn-danger-color: #ffffff;
+$btn-warning-color: #000000; // maybe dark text on yellow
+$btn-info-color: #ffffff;
+$btn-light-color: #000000;
+$btn-dark-color: #ffffff;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "danger": $danger,
+  "warning": $warning,
+  "info": $info,
+  "light": $light,
+  "dark": $dark,
+  "accent": $accent // now you can use btn-accent, bg-accent, etc.
+);
+
+// Import Bootstrap after overrides
+@import "~bootstrap/scss/bootstrap";

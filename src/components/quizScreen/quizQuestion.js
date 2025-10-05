@@ -1,6 +1,7 @@
 import { Button, Row } from "react-bootstrap";
 
 export default function QuizQuestion({ question, selection, setSelection, nextQuestionHandler }) {
+
   function variantHandler(option) {
     if (!selection) return "outline-light";
     if (option === question.Answer) return "success";

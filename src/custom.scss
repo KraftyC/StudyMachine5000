@@ -1,0 +1,53 @@
+// 1) Import Bootstrap functions first
+@import "~bootstrap/scss/functions";
+
+// 2) Palette overrides
+$primary:   #0076BD;
+$secondary: #222327;
+$success:   #43A25A;
+$danger:    #D6363F;
+$warning:   #F4A261;
+$info:      #5832F2;
+$light:     #F9F9F9;
+$dark:      #212529;
+
+// Theme colors
+$theme-colors: (
+  "primary":   $primary,
+  "secondary": $secondary,
+  "success":   $success,
+  "danger":    $danger,
+  "warning":   $warning,
+  "info":      $info,
+  "light":     $light,
+  "dark":      $dark
+);
+
+// Optional: nudge Bootstrap’s contrast picker (lower picks white more often)
+// $min-contrast-ratio: 3;
+
+// 3) Import Bootstrap
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/bootstrap";
+
+// 4) Hard overrides AFTER Bootstrap to force text colors
+// Buttons
+.btn-primary  { color: #fff !important; }
+.btn-secondary{ color: #fff !important; }
+.btn-success  { color: #fff !important; }
+.btn-danger   { color: #fff !important; }
+.btn-dark     { color: #fff !important; }
+.btn-info     { color: #fff !important; }   // adjust if you want white
+.btn-warning  { color: #000 !important; }
+.btn-light    { color: #000 !important; }
+
+// Alerts (if you need them consistent too)
+.alert-primary  { color: #fff !important; }
+.alert-secondary{ color: #fff !important; }
+.alert-success  { color: #fff !important; }
+.alert-danger   { color: #fff !important; }
+.alert-dark     { color: #fff !important; }
+.alert-info     { color: #000 !important; }
+.alert-warning  { color: #000 !important; }
+.alert-light    { color: #000 !important; }
+
