@@ -38,5 +38,5 @@ function findAvailableCourses(questions) {
     return acc;
   }, []);
 
-  return courses;
+  return courses.sort((a, b) => a.code.localeCompare(b.code))
 }

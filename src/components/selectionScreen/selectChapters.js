@@ -59,13 +59,7 @@ function findAvailableChapters(questions) {
       currentChapter.origins.push(q.Origin);
   });
 
-  return uniqueChapters.sort((a, b) => {
-    if (a.textbook < b.textbook) return -1;
-    if (a.textbook > b.textbook) return 1;
-    if (a.chapter < b.chapter) return -1;
-    if (a.chapter > b.chapter) return 1;
-    return 0;
-  });
+  return uniqueChapters.sort((a, b) => parseInt(a.chapter) - parseInt(b.chapter));
 }
 
 function uniqueTextbooks(chapters) {
@@ -75,5 +69,5 @@ function uniqueTextbooks(chapters) {
     return acc;
   }, []);
 
-  return textbooks;
+  return textbooks.sort((a, b) => a.localeCompare(b));
 }

@@ -4,7 +4,7 @@ import Papa from "papaparse";
 const QContext = React.createContext({
   isLoading: false,
   selection: { courseCode: "", chapters: [], origins: [], quantity: 0 },
-  questions: [{ CourseCode: "", CourseName: "", Origin: "", Question: "", OptionA: "", OptionB: "", OptionC: "", OptionD: "", Answer: "", RelatedTextbook: "", RelatedChapter: "" }],
+  questions: [{ CourseCode: "", CourseName: "", Origin: "", Question: "", OptionA: "", OptionB: "", OptionC: "", OptionD: "", OptionE: "", OptionF: "", Answer: "", RelatedTextbook: "", RelatedChapter: "" }],
   setIsLoading: () => {},
   setSelection: () => {},
   setQuestions: () => {}
