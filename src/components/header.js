@@ -1,6 +1,5 @@
 import { Container, Navbar } from "react-bootstrap";
 
-
 export default function Header() {
   return (
     <Navbar className="bg-info">

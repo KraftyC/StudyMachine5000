@@ -91,8 +91,12 @@ export default function QuizMain() {
   return (<>
     {(!qCtx.isLoading && questions.length > 0) && (<>
       <Row className="fs-4 fw-bold text-primary p-3 my-3">
-        <Col xs="8">{questions[0].CourseName}</Col>
-        <Col xs="4" className="text-end">{qCtx.questions.length - (questions.length - 1)} / {qCtx.questions.length}</Col>
+        <Col xs="7">{questions[0].CourseName}</Col>
+        <Col xs="5" className="text-end">
+          {qCtx.questions.length - (questions.length - 1)} / {qCtx.questions.length}
+          <br />
+          <p className="text-white fst-italic fs-6 fw-normal">{nameOrigin(questions[0].Origin)}</p>
+        </Col>
       </Row>
       {!isFinished && <QuizQuestion question={questions[0]} selection={selection} setSelection={setSelection} nextQuestionHandler={nextQuestionHandler} />}
       {isFinished && <QuizEnding score={score} wrongQuestions={wrongQuestions} />}
@@ -106,4 +110,15 @@ function shuffleArray(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
+}
+
+function nameOrigin(origin) {
+  switch (origin) {
+    case "P":
+      return "Professor";
+    case "T":
+      return "Textbook";
+    default:
+      return origin;
+  }
 }

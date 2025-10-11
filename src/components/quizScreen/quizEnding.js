@@ -13,7 +13,7 @@ export default function QuizEnding({ score, wrongQuestions }) {
     <Row className="p-3 justify-content-center fw-bold">
       Here's where to focus your studies:
     </Row>
-    {wrongQuestions.length === 0 && <Row className="p-3 justify-content-center">
+    {wrongQuestions.length === 0 && <Row className="p-3 justify-content-center text-center border-top fs-5">
       You got every question right!<br />Amazing job!
     </Row>}
     {wrongQuestions.length > 0 && wrongQuestions.map(item => (

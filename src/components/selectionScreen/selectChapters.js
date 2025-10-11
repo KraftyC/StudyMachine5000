@@ -33,8 +33,8 @@ export default function SelectChapters() {
       {availableChapters.filter(chapter => chapter.textbook === textbook).map(chapter => (
         <Row key={chapter.chapter} className="mb-2">
           <Button onClick={() => selectChapterHandler(chapter)} variant={buttonVariant(chapter)} className="d-flex justify-content-between px-3 py-2">
-            <div>{chapter.chapter}</div>
-            <div className="d-flex gap-3 fst-italic">
+            <div className="text-start">{chapter.chapter}</div>
+            <div className="d-flex gap-3 fst-italic ms-3">
               {chapter.origins.map(origin => (
                 <div key={origin}>{origin}</div>
               ))}
