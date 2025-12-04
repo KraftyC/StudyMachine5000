@@ -13,29 +13,29 @@ export default function SelectionMain({ setIsSelected }) {
   const countRef = useRef(null);
   const buttonRef = useRef(null);
 
-  useEffect(() => {
-    if (qCtx.selection.courseCode && chaptersRef.current) {
-      chaptersRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [qCtx.selection.courseCode]);
+  // useEffect(() => {
+  //   if (qCtx.selection.courseCode && chaptersRef.current) {
+  //     chaptersRef.current.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // }, [qCtx.selection.courseCode]);
 
-  useEffect(() => {
-    if (qCtx.selection.chapters.length > 0 && originRef.current) {
-      originRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [qCtx.selection.chapters]);
+  // useEffect(() => {
+  //   if (qCtx.selection.chapters.length > 0 && originRef.current) {
+  //     originRef.current.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // }, [qCtx.selection.chapters]);
 
-  useEffect(() => {
-    if (qCtx.selection.origins.length > 0 && countRef.current) {
-      countRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [qCtx.selection.origins]);
+  // useEffect(() => {
+  //   if (qCtx.selection.origins.length > 0 && countRef.current) {
+  //     countRef.current.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // }, [qCtx.selection.origins]);
 
-  useEffect(() => {
-    if (qCtx.selection.quantity > 0 && buttonRef.current) {
-      buttonRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [qCtx.selection.quantity]);
+  // useEffect(() => {
+  //   if (qCtx.selection.quantity > 0 && buttonRef.current) {
+  //     buttonRef.current.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // }, [qCtx.selection.quantity]);
 
   return (<>
     <SelectCourse />
@@ -47,5 +47,6 @@ export default function SelectionMain({ setIsSelected }) {
         <Button onClick={() => setIsSelected(true)} variant="success" className="w-50">Start Quiz!</Button>
       </Row>
     )}
+    <div style={{ height: "50px" }}></div>
   </>);
 }
