@@ -1,10 +1,11 @@
 import React, { useContext, useEffect, useState } from "react";
 import QContext from "../../store/question-context";
 import { Button, Row } from "react-bootstrap";
-
+import { CHAPTER_GROUPS } from "../../lib/constants"; // { CourseCode: { GroupName: { Textbook: [ Chapter1, Chapter2, ... ] }}}
 
 export default function SelectChapters() {
   const qCtx = useContext(QContext);
+  const groupName = CHAPTER_GROUPS[qCtx.selection.courseCode] ? Object.keys(CHAPTER_GROUPS[qCtx.selection.courseCode])[0] : null;
   const [availableChapters, setAvailableChapters] = useState([]); // [{ textbook, chapter, origins }]
 
   useEffect(() => {
@@ -22,12 +23,37 @@ export default function SelectChapters() {
       qCtx.setSelection(p => ({ ...p, chapters: p.chapters.filter(c => !(c.textbook === chapter.textbook && c.chapter === chapter.chapter)), mode: null, origins: [], quantity: null }));
   }
 
-  function buttonVariant(chapter) {
-    return qCtx.selection.chapters.find(c => c.textbook === chapter.textbook && c.chapter === chapter.chapter) ? "info" : "secondary";
+  function selectGroupHandler() {
+    const groupQuestions = [];
+    const textbooks = Object.keys(CHAPTER_GROUPS[qCtx.selection.courseCode][groupName]);
+
+    textbooks.forEach(t => {
+      groupQuestions.push(
+        ...qCtx.questions.filter(q => q.RelatedTextbook === t && CHAPTER_GROUPS[qCtx.selection.courseCode][groupName][t].includes(q.RelatedChapter))
+      );
+    });
+
+    qCtx.setSelection(p => ({ ...p, chapters: findAvailableChapters(groupQuestions), mode: null, origins: [], quantity: null }));
+  }
+
+  function buttonVariant(chapter, isGroup = false) {
+    if (isGroup)
+      return Object.entries(CHAPTER_GROUPS[qCtx.selection.courseCode][groupName]).every(([textbook, chapters]) =>
+        chapters.every(chapterName =>
+          qCtx.selection.chapters.find(c => c.textbook === textbook && c.chapter === chapterName)
+        )
+      ) ? "info" : "secondary";
+    else
+      return qCtx.selection.chapters.find(c => c.textbook === chapter.textbook && c.chapter === chapter.chapter) ? "info" : "secondary";
   }
 
   return (<>
     <Row className="text-center fw-bold fs-5 px-3 pt-2 justify-content-center">Select Chapters:</Row>
+    {groupName !== null && <Row className="my-3">
+      <Button onClick={selectGroupHandler} variant={buttonVariant(null, true)} className="d-flex justify-content-between px-3 py-2">
+        <div className="text-start fw-bold">{groupName}</div>
+      </Button>
+    </Row>}
     {uniqueTextbooks(availableChapters).map(textbook => (<React.Fragment key={textbook}>
       <Row className="fst-italic fs-6 px-3 py-2">{textbook}</Row>
       {availableChapters.filter(chapter => chapter.textbook === textbook).map(chapter => (
