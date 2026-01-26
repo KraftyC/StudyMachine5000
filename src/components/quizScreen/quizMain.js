@@ -46,7 +46,7 @@ export default function QuizMain() {
 
   return (<>
     {(!qCtx.isLoading && questions.length > 0) && (<>
-      <GameHeader courseName={questions[0].CourseName} qLength={questions.length} qTotal={qCtx.questions.length} origin={questions[0].Origin} />
+      <GameHeader question={questions[0]} qLength={questions.length} qTotal={qCtx.questions.length} />
       {!isFinished && <QuizQuestion question={questions[0]} selection={selection} setSelection={setSelection} nextQuestionHandler={nextQuestionHandler} />}
       {isFinished && <QuizEnding score={score} wrongQuestions={wrongQuestions} />}
     </>)}

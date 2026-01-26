@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "react-bootstrap";
 import ReactFlipCard from "reactjs-flip-card";
 
@@ -8,12 +9,27 @@ const cardStyle = {
 }
 
 export default function FlashQuestion({ question, answer, onFlip, onNext, cardFlipped }) {
+  const [isCardFlipped, setIsCardFlipped] = useState(false);
+
+  function cardFlipHandler() {
+    setIsCardFlipped(p => !p);
+    onFlip();
+  }
+
+  function nextButtonHandler() {
+    setIsCardFlipped(false);
+    setTimeout(() => {
+      onNext();
+    }, 150);
+  }
+
   return (<>
     <ReactFlipCard 
-        frontComponent={<div>{question}</div>}
+        frontComponent={<div className="fw-bold fs-5">{question}</div>}
         backComponent={<div>{answer}</div>}
-        onClick={onFlip}
-        flipTrigger="onClick"
+        onClick={cardFlipHandler}
+        flipTrigger="disabled"
+        flipByProp={isCardFlipped}
         direction="vertical"
         containerStyle={cardStyle.container}
         frontCss={cardStyle.cardCss}
@@ -22,7 +38,7 @@ export default function FlashQuestion({ question, answer, onFlip, onNext, cardFl
         backStyle={cardStyle.card}
       />
       {cardFlipped && <div className="d-flex justify-content-end">
-        <Button onClick={onNext} variant="primary" className="fw-bold text-center p-3 mt-4 w-50">
+        <Button onClick={nextButtonHandler} variant="primary" className="fw-bold text-center p-3 mt-4 w-50">
           Next
         </Button>
       </div>}
