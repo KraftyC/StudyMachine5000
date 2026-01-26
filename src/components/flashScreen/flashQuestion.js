@@ -13,6 +13,7 @@ export default function FlashQuestion({ question, answer, onFlip, onNext, cardFl
         frontComponent={<div>{question}</div>}
         backComponent={<div>{answer}</div>}
         onClick={onFlip}
+        flipTrigger="onClick"
         direction="vertical"
         containerStyle={cardStyle.container}
         frontCss={cardStyle.cardCss}
