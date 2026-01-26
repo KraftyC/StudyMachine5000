@@ -12,7 +12,9 @@ export default function SelectCount() {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    const totalQs = qCtx.questions.filter(q => 
+    const filteredQuestions = qCtx.questions.filter(q => qCtx.selection.mode === "Multiple Choice" ? q.OptionA !== "" : q.OptionA === "");
+
+    const totalQs = filteredQuestions.filter(q => 
       q.CourseCode === qCtx.selection.courseCode && 
       qCtx.selection.chapters.find(c => c.textbook === q.RelatedTextbook && c.chapter === q.RelatedChapter) &&
       qCtx.selection.origins.includes(q.Origin)).length;
@@ -20,6 +22,7 @@ export default function SelectCount() {
     setTotalQuestions(totalQs);
 
     setAvailableCounts(totalQs < 51 ? [ totalQs, -1 ] : totalQs < 101 ? [ 50, totalQs, -1 ] : [ 50, 100, totalQs, -1 ]);
+    // eslint-disable-next-line
   }, [qCtx.selection.origins])
 
   function selectCountHandler(count) {

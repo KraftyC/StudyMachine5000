@@ -3,7 +3,7 @@ import Papa from "papaparse";
 
 const QContext = React.createContext({
   isLoading: false,
-  selection: { courseCode: "", chapters: [], origins: [], quantity: 0 },
+  selection: { courseCode: "", chapters: [], mode: "",origins: [], quantity: 0 },
   questions: [{ CourseCode: "", CourseName: "", Origin: "", Question: "", OptionA: "", OptionB: "", OptionC: "", OptionD: "", OptionE: "", OptionF: "", Answer: "", RelatedTextbook: "", RelatedChapter: "" }],
   setIsLoading: () => {},
   setSelection: () => {},
@@ -12,7 +12,7 @@ const QContext = React.createContext({
 
 export function QContextProvider(props) {
   const [isLoading, setIsLoading] = useState(false);
-  const [selection, setSelection] = useState({ courseCode: null, chapters: [], origins: [], quantity: null });
+  const [selection, setSelection] = useState({ courseCode: null, chapters: [], mode: null,origins: [], quantity: null });
   const [questions, setQuestions] = useState([]);
 
   useEffect(() => {

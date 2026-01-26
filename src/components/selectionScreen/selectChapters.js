@@ -17,9 +17,9 @@ export default function SelectChapters() {
 
   function selectChapterHandler(chapter) {
     if (!qCtx.selection.chapters.find(c => c.textbook === chapter.textbook && c.chapter === chapter.chapter))
-      qCtx.setSelection(p => ({ ...p, chapters: [ ...p.chapters, chapter ], origins: [], quantity: null }));
+      qCtx.setSelection(p => ({ ...p, chapters: [ ...p.chapters, chapter ], mode: null, origins: [], quantity: null }));
     else
-      qCtx.setSelection(p => ({ ...p, chapters: p.chapters.filter(c => !(c.textbook === chapter.textbook && c.chapter === chapter.chapter)), origins: [], quantity: null }));
+      qCtx.setSelection(p => ({ ...p, chapters: p.chapters.filter(c => !(c.textbook === chapter.textbook && c.chapter === chapter.chapter)), mode: null, origins: [], quantity: null }));
   }
 
   function buttonVariant(chapter) {

@@ -3,12 +3,12 @@ import { Button, Row } from "react-bootstrap";
 import QContext from "../../store/question-context";
 
 
-export default function QuizEnding({ score, wrongQuestions }) {
+export default function CipherEnding({ score, wrongQuestions }) {
   const qCtx = useContext(QContext);
 
   return (<>
     <Row className="fs-4 fw-bold p-3 justify-content-center text-center">
-      Quiz Finished!<br />Final Results: {score} / {qCtx.questions.length}
+      Cipher Finished!<br />Final Results: {score} / {qCtx.questions.length}
     </Row>
     <Row className="p-3 justify-content-center fw-bold">
       Here's where to focus your studies:

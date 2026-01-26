@@ -1,12 +1,13 @@
 import { useContext, useEffect, useState } from "react";
 import QContext from "../../store/question-context";
-import { Col, Row } from "react-bootstrap";
+import GameHeader from "../shared/gameHeader";
 import QuizQuestion from "./quizQuestion";
 import QuizEnding from "./quizEnding";
-import { shuffleArray } from "../../lib/helperFunctions";
+import useQuestionPrep from "../hooks/useQuestionPrep";
 
 export default function QuizMain() {
   const qCtx = useContext(QContext);
+  const preparedQuestions = useQuestionPrep();
   const [questions, setQuestions] = useState([]);
   const [selection, setSelection] = useState(null);
   const [score, setScore] = useState(0);
@@ -15,57 +16,11 @@ export default function QuizMain() {
 
   useEffect(() => {
     qCtx.setIsLoading(true);
-
-    // Step 1: Filter by courseCode
-    let filtered = qCtx.questions.filter(q => q.CourseCode === qCtx.selection.courseCode);
-
-    // Step 2: Filter by chapters (textbook & chapter)
-    filtered = filtered.filter(q => qCtx.selection.chapters.some(ch => ch.textbook === q.RelatedTextbook && ch.chapter === q.RelatedChapter));
-
-    // Step 3: Filter by origin
-    filtered = filtered.filter(q => qCtx.selection.origins.includes(q.Origin));
-
-    // Step 4: Group by textbook & chapter
-    const chapterGroups = qCtx.selection.chapters.map(ch => ({ textbook: ch.textbook, chapter: ch.chapter }));
-
-    const grouped = chapterGroups.map(({ textbook, chapter }) => filtered.filter(q => q.RelatedTextbook === textbook && q.RelatedChapter === chapter));
-
-    // Step 5: Distribute questions equally
-    const totalQuestions = qCtx.selection.quantity;
-    const perGroup = Math.floor(totalQuestions / grouped.length);
-    let remainder = totalQuestions % grouped.length;
-
-    let selectedQuestions = [];
-    grouped.forEach(group => {
-      const shuffled = shuffleArray([...group]);
-      let take = perGroup;
-      if (remainder > 0) {
-        take += 1;
-        remainder -= 1;
-      }
-      selectedQuestions = selectedQuestions.concat(shuffled.slice(0, take));
-    });
-
-    // Fill up to totalQuestions if needed, avoiding duplicates
-    if (selectedQuestions.length < totalQuestions) {
-      // Create a unique key for each question
-      const makeKey = q => `${q.CourseCode}|${q.RelatedTextbook}|${q.RelatedChapter}|${q.Question}`;
-      const selectedKeys = new Set(selectedQuestions.map(makeKey));
-      const remaining = shuffleArray(filtered.filter(q => !selectedKeys.has(makeKey(q))));
-      selectedQuestions = selectedQuestions.concat(remaining.slice(0, totalQuestions - selectedQuestions.length));
-    }
-
-    // If still not enough, just use all available
-    selectedQuestions = selectedQuestions.slice(0, Math.min(totalQuestions, filtered.length));
-
-    // Shuffle final selection
-    selectedQuestions = shuffleArray(selectedQuestions);
-
-    qCtx.setQuestions(selectedQuestions);
-    setQuestions(selectedQuestions);
+    qCtx.setQuestions(preparedQuestions);
+    setQuestions(preparedQuestions);
     qCtx.setIsLoading(false);
     // eslint-disable-next-line
-  }, [qCtx.selection]);
+  }, [preparedQuestions]);
 
   function nextQuestionHandler() {
     if (questions.length > 1) {
@@ -91,27 +46,9 @@ export default function QuizMain() {
 
   return (<>
     {(!qCtx.isLoading && questions.length > 0) && (<>
-      <Row className="fs-5 fw-bold text-primary p-3 my-3">
-        <Col xs="8">{questions[0].CourseName}</Col>
-        <Col xs="4" className="text-end">
-          {qCtx.questions.length - (questions.length - 1)} / {qCtx.questions.length}
-          <br />
-          <p className="text-white fst-italic fs-6 fw-normal m-0">{nameOrigin(questions[0].Origin)}</p>
-        </Col>
-      </Row>
+      <GameHeader courseName={questions[0].CourseName} qLength={questions.length} qTotal={qCtx.questions.length} origin={questions[0].Origin} />
       {!isFinished && <QuizQuestion question={questions[0]} selection={selection} setSelection={setSelection} nextQuestionHandler={nextQuestionHandler} />}
       {isFinished && <QuizEnding score={score} wrongQuestions={wrongQuestions} />}
     </>)}
   </>);
-}
-
-function nameOrigin(origin) {
-  switch (origin) {
-    case "P":
-      return "Professor";
-    case "T":
-      return "Textbook";
-    default:
-      return origin;
-  }
 }

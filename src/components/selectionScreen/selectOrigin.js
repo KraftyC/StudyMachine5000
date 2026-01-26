@@ -9,7 +9,8 @@ export default function SelectOrigin() {
 
   useEffect(() => {
     setAvailableOrigins([ ...new Set(qCtx.selection.chapters.flatMap(ch => ch.origins)) ].sort((a, b) => a.localeCompare(b)));
-  }, [qCtx.selection.chapters])
+    // eslint-disable-next-line
+  }, [qCtx.selection.mode])
 
   function selectOriginHandler(origin) {
     if (!qCtx.selection.origins.includes(origin))
@@ -23,10 +24,14 @@ export default function SelectOrigin() {
   }
 
   function questionCount(origin) {
-    return qCtx.questions.filter(q => 
+    const filteredQuestions = qCtx.questions.filter(q => qCtx.selection.mode === "Multiple Choice" ? q.OptionA !== "" : q.OptionA === "");
+    const questionCount = filteredQuestions.filter(q => 
       q.CourseCode === qCtx.selection.courseCode && 
       qCtx.selection.chapters.find(c => c.textbook === q.RelatedTextbook && c.chapter === q.RelatedChapter) &&
       q.Origin === origin).length;
+
+    if (questionCount === 0) setAvailableOrigins(p => p.filter(o => o !== origin));
+    else return questionCount;
   }
 
   return (<>

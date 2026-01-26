@@ -12,7 +12,7 @@ export default function SelectCourse() {
   }, [qCtx.questions])
 
   function selectCourseHandler(code) {
-    qCtx.setSelection({ courseCode: code, chapters: [], origins: [], quantity: null });
+    qCtx.setSelection(p => ({ courseCode: code, chapters: [], mode: null, origins: [], quantity: null }));
   }
 
   function buttonVariant(code) {
