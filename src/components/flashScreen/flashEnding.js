@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Button, Row } from "react-bootstrap";
 import QContext from "../../store/question-context";
-
+import { sortChapters } from "../../lib/helperFunctions";
 
 export default function FlashEnding() {
   const qCtx = useContext(QContext);
@@ -17,7 +17,7 @@ export default function FlashEnding() {
     {Object.keys(reducedQuestions).sort((a, b) => a.localeCompare(b)).map(textbook => (
       <Row key={textbook} className="p-3 fst-italic">
         {textbook}
-        {Object.keys(reducedQuestions[textbook]).sort((a, b) => Number(a) - Number(b)).map(chapter => (
+        {Object.keys(reducedQuestions[textbook]).sort((a, b) => sortChapters(a, b)).map(chapter => (
           <Row key={chapter} className="p-2 justify-content-center text-center fst-normal">
             Chapter {chapter}: {reducedQuestions[textbook][chapter]} question{reducedQuestions[textbook][chapter] > 1 ? "s" : ""}
           </Row>

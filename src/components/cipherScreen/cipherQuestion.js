@@ -43,6 +43,40 @@ export default function CipherQuestion({ question, onNext }) {
     setIsFinished(false);
   }, [question]);
 
+  useEffect(() => {
+    if (letters.length === 0) return;
+
+    // Only auto-focus when all user entries are empty (fresh question)
+    const isFresh = letters.every(l => l.revealed || l.user === "");
+
+    if (!isFresh) return;
+
+    const firstIndex = letters.findIndex(l => !l.revealed);
+
+    if (firstIndex !== -1 && inputRefs.current[firstIndex]) {
+      inputRefs.current[firstIndex].focus();
+    }
+  }, [letters]);
+
+  useEffect(() => {
+    function handleEnter(e) {
+      if (e.key !== "Enter") return;
+
+      // If puzzle is finished → Enter = Next
+      if (isFinished) {
+        onNext(isCorrect);
+        return;
+      }
+
+      // If puzzle is NOT finished → Enter = Submit (only if all filled)
+      if (allFilled) checkAnswer();
+    }
+
+    window.addEventListener("keydown", handleEnter);
+    return () => window.removeEventListener("keydown", handleEnter);
+    // eslint-disable-next-line
+  }, [allFilled, isFinished, isCorrect]);
+
   function handleInput(i, value) {
     const char = value.toUpperCase();
 

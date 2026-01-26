@@ -40,7 +40,7 @@ export default function CipherMain() {
 
   return (<>
     {(!qCtx.isLoading && questions.length > 0) && (<>
-      <GameHeader question={questions[0]} qLength={questions.length} qTotal={qCtx.questions.length} />
+      <GameHeader question={questions[0]} qLength={questions.length} qTotal={qCtx.questions.length} isFinished={isFinished} />
       {!isFinished && <CipherQuestion question={questions[0]} onNext={nextQuestionHandler} />}
       {isFinished && <CipherEnding score={score} wrongQuestions={wrongQuestions} />}
     </>)}

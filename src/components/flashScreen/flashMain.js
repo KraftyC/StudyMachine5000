@@ -29,7 +29,7 @@ export default function FlashMain() {
 
   return (<>
     {(!qCtx.isLoading && questions.length > 0) && (<>
-      <GameHeader question={questions[0]} qLength={questions.length} qTotal={qCtx.questions.length} />
+      <GameHeader question={questions[0]} qLength={questions.length} qTotal={qCtx.questions.length} isFinished={isFinished} />
       {!isFinished && <FlashQuestion question={questions[0].Answer} answer={questions[0].Question} onFlip={() => setCardFlipped(true)} onNext={nextQuestionHandler} cardFlipped={cardFlipped} />}
       {isFinished && <FlashEnding />}
     </>)}

@@ -5,3 +5,9 @@ export function shuffleArray(array) {
   }
   return array;
 }
+
+export function sortChapters(a, b) {
+  const numA = parseInt(a.split(" - ")[0]);
+  const numB = parseInt(b.split(" - ")[0]);
+  return numA - numB;
+}
