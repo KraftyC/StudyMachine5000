@@ -5,7 +5,7 @@ import ReactFlipCard from "reactjs-flip-card";
 const cardStyle = {
   container: { width: "100%", minHeight: "300px" },
   card: { display: "flex", justifyContent: "center", alignItems: "center", border: "1px solid #ccc", borderRadius: "8px" },
-  cardCss: "p-3 text-center"
+  cardCss: "p-3 text-center bg-dark"
 }
 
 export default function FlashQuestion({ question, answer, onFlip, onNext, cardFlipped }) {
@@ -18,9 +18,7 @@ export default function FlashQuestion({ question, answer, onFlip, onNext, cardFl
 
   function nextButtonHandler() {
     setIsCardFlipped(false);
-    setTimeout(() => {
-      onNext();
-    }, 150);
+    setTimeout(() => { onNext(); }, 150);
   }
 
   return (<>
