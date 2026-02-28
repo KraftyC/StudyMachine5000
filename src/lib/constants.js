@@ -1,5 +1,9 @@
 export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Chapter1, Chapter2, ... ] }}}
-  ANAT9240: null,
+  ANAT9240: {
+    "Test #2": {
+      "Anatomy & Physiology": [ "18 - Nervous System Cells", "19 - Nerve Signaling", "20 - Central Nervous System", "21 - Peripheral Nervous System", "22 - Autonomic Nervous System", "23 - General Senses", "24 - Special Senses", "27 - Blood", "28 - Heart", "29 - Blood Vessels", "30 - Circulation of Blood" ]
+    }
+  },
   PSYC9210: {
     "Midterm Exam": { 
       "Developmental Psychology: A Canadian Perspective": [ "1 - Introduction to Lifespan Development", "2 - Heredity, Prenatal Development, and Birth", "3 - Infancy and Toddlerhood", "4 - Early Childhood" ] 
