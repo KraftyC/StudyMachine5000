@@ -17,7 +17,7 @@ export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Cha
   },
   BSCN9230: {
     "Midterm & Final Exams": { 
-      "Canadian Clinical Nursing Skills & Techniques (2nd Ed.)": [ "3 - Communication and Collaboration", "4 - Documentation and Informatics", "5 - Medical Asepsis", "7 - Vital Signs", "11 - Safe Patient Handling, Transfer, & Positioning", "12 - Exercise, Mobility, & Immobilization Devices", "16 - Pain Assessment and Management", "18 - Personal Hygiene & Bed Making", "31 - Oral Nutrition", "34 - Urinary Elimination and Catheterization", "35 - Bowel Elimination and Gastric Intubation", "39 - Prevention & Care of Skin Breakdown" ],
+      "Canadian Clinical Nursing Skills & Techniques (2nd Ed.)": [ "3 - Communication and Collaboration", "4 - Documentation and Informatics", "5 - Medical Asepsis", "7 - Vital Signs", "11 - Safe Patient Handling, Transfer, & Positioning", "12 - Exercise, Mobility, & Immobilization Devices", "14 - Patient Safety", "16 - Pain Assessment and Management", "18 - Personal Hygiene & Bed Making", "31 - Oral Nutrition", "34 - Urinary Elimination and Catheterization", "35 - Bowel Elimination and Gastric Intubation", "39 - Prevention & Care of Skin Breakdown" ],
       "Medical Terminology": [ "Week 2", "Week 3", "Week 4", "Week 5", "Week 6" ]
     } 
   }
