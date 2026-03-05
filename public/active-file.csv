@@ -369,7 +369,7 @@ ANAT9240,Anatomy & Physiology,P,The description used for elastic arteries,,,,,,,
 ANAT9240,Anatomy & Physiology,P,A cell that constricts an arteriole to change precapillary tone,,,,,,,Pericyte,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,P,The least common WBC found in blood under normal conditions,,,,,,,Basophil,Anatomy & Physiology,27 - Blood
 ANAT9240,Anatomy & Physiology,P,The percentage of RBCs in whole blood,,,,,,,Hematocrit,Anatomy & Physiology,27 - Blood
-ANAT9240,Anatomy & Physiology,P,This tunica layer actually touches the blood,,,,,,,Intima Tunica,Anatomy & Physiology,29 - Blood Vessels
+ANAT9240,Anatomy & Physiology,P,This tunica layer actually touches the blood,,,,,,,Tunica Intima,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,P,The formal term for red blood cell,,,,,,,Erythrocyte,Anatomy & Physiology,27 - Blood
 ANAT9240,Anatomy & Physiology,P,The ringed structure that holds iron in hemoglobin,,,,,,,Heme,Anatomy & Physiology,27 - Blood
 ANAT9240,Anatomy & Physiology,P,Oxygen carrying protein in muscle cells,,,,,,,Myoglobin,Anatomy & Physiology,17 - Muscle Contraction
@@ -446,7 +446,7 @@ ANAT9240,Anatomy & Physiology,T,The physiological mechanism that dissolves clots
 ANAT9240,Anatomy & Physiology,T,"In the extrinsic pathway of stage 1 of the clotting mechanism, chemicals released from damaged tissues trigger the cascade of events that ultimately result in the formation of",Vitamin K,Prothrombin Activator,Calcium,Fibrin,,,B,Anatomy & Physiology,27 - Blood
 ANAT9240,Anatomy & Physiology,T,Which types of arteries are also called conducting arteries and include the aorta?,Muscular Arteries,End Arteries,Resistance Arteries,Elastic Arteries,,,D,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,T,Microscopic vessels that carry blood from small arteries to small veins are,Capillaries,Venules,Arterioles,Sinusoids,,,A,Anatomy & Physiology,29 - Blood Vessels
-ANAT9240,Anatomy & Physiology,T,The outermost layer of the larger blood vessels is the tunica,Externa,Media,Intima,Intermedia,,,B,Anatomy & Physiology,29 - Blood Vessels
+ANAT9240,Anatomy & Physiology,T,The outermost layer of the larger blood vessels is the tunica,Externa,Media,Intima,Intermedia,,,A,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,T,Which layer of the larger blood vessels is made up of endothelium?,Tunica Intima,Tunica Adventitia,Tunica Media,Tunica Albuginea,,,A,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,T,Which of the following has branches that partially encircle a capillary or venule and contract or relax to regulate blood flow?,Pericytes,Pinocytic Vessels,End Arteries,Phagocytes,,,A,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,T,Blood flow from the heart through blood vessels to all parts of the body and back to the heart is referred to as _____ circulation,Cardiac,Pulmonary,Full,Systemic,,,D,Anatomy & Physiology,29 - Blood Vessels
