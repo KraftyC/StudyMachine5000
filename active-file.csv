@@ -369,7 +369,7 @@ ANAT9240,Anatomy & Physiology,P,The description used for elastic arteries,,,,,,,
 ANAT9240,Anatomy & Physiology,P,A cell that constricts an arteriole to change precapillary tone,,,,,,,Pericyte,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,P,The least common WBC found in blood under normal conditions,,,,,,,Basophil,Anatomy & Physiology,27 - Blood
 ANAT9240,Anatomy & Physiology,P,The percentage of RBCs in whole blood,,,,,,,Hematocrit,Anatomy & Physiology,27 - Blood
-ANAT9240,Anatomy & Physiology,P,This tunica layer actually touches the blood,,,,,,,Intima Tunica,Anatomy & Physiology,29 - Blood Vessels
+ANAT9240,Anatomy & Physiology,P,This tunica layer actually touches the blood,,,,,,,Tunica Intima,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,P,The formal term for red blood cell,,,,,,,Erythrocyte,Anatomy & Physiology,27 - Blood
 ANAT9240,Anatomy & Physiology,P,The ringed structure that holds iron in hemoglobin,,,,,,,Heme,Anatomy & Physiology,27 - Blood
 ANAT9240,Anatomy & Physiology,P,Oxygen carrying protein in muscle cells,,,,,,,Myoglobin,Anatomy & Physiology,17 - Muscle Contraction
@@ -446,7 +446,7 @@ ANAT9240,Anatomy & Physiology,T,The physiological mechanism that dissolves clots
 ANAT9240,Anatomy & Physiology,T,"In the extrinsic pathway of stage 1 of the clotting mechanism, chemicals released from damaged tissues trigger the cascade of events that ultimately result in the formation of",Vitamin K,Prothrombin Activator,Calcium,Fibrin,,,B,Anatomy & Physiology,27 - Blood
 ANAT9240,Anatomy & Physiology,T,Which types of arteries are also called conducting arteries and include the aorta?,Muscular Arteries,End Arteries,Resistance Arteries,Elastic Arteries,,,D,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,T,Microscopic vessels that carry blood from small arteries to small veins are,Capillaries,Venules,Arterioles,Sinusoids,,,A,Anatomy & Physiology,29 - Blood Vessels
-ANAT9240,Anatomy & Physiology,T,The outermost layer of the larger blood vessels is the tunica,Externa,Media,Intima,Intermedia,,,B,Anatomy & Physiology,29 - Blood Vessels
+ANAT9240,Anatomy & Physiology,T,The outermost layer of the larger blood vessels is the tunica,Externa,Media,Intima,Intermedia,,,A,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,T,Which layer of the larger blood vessels is made up of endothelium?,Tunica Intima,Tunica Adventitia,Tunica Media,Tunica Albuginea,,,A,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,T,Which of the following has branches that partially encircle a capillary or venule and contract or relax to regulate blood flow?,Pericytes,Pinocytic Vessels,End Arteries,Phagocytes,,,A,Anatomy & Physiology,29 - Blood Vessels
 ANAT9240,Anatomy & Physiology,T,Blood flow from the heart through blood vessels to all parts of the body and back to the heart is referred to as _____ circulation,Cardiac,Pulmonary,Full,Systemic,,,D,Anatomy & Physiology,29 - Blood Vessels
@@ -573,13 +573,13 @@ ANAT9240,Anatomy & Physiology,P,The zone where the telodendria are found in a ne
 ANAT9240,Anatomy & Physiology,P,The term given to a neuron with multiple dendrites and one axon,,,,,,,Multipolar Neuron,Anatomy & Physiology,18 - Nervous System Cells
 ANAT9240,Anatomy & Physiology,P,The spines that are thought to be a site for memory formation,,,,,,,Dendritic Spines,Anatomy & Physiology,18 - Nervous System Cells
 ANAT9240,Anatomy & Physiology,P,The family of cell that schwann cells belong to,,,,,,,Glia,Anatomy & Physiology,18 - Nervous System Cells
-ANAT9240,Anatomy & Physiology,P,The cells of the nervious system that engage in phagocytosis when needed,,,,,,,Microglia,Anatomy & Physiology,18 - Nervous System Cells
+ANAT9240,Anatomy & Physiology,P,The cells of the nervous system that engage in phagocytosis when needed,,,,,,,Microglia,Anatomy & Physiology,18 - Nervous System Cells
 ANAT9240,Anatomy & Physiology,P,"Neurons, like muscle fibres, are grouped into these in a nerve",,,,,,,Fascicle,Anatomy & Physiology,18 - Nervous System Cells
 ANAT9240,Anatomy & Physiology,P,Speaking to the direction of motor information,,,,,,,Efferent,Anatomy & Physiology,18 - Nervous System Cells
 ANAT9240,Anatomy & Physiology,P,The layer of the meninges that sits between the brain and the skull bone,,,,,,,Arachnoid Mater,Anatomy & Physiology,20 - Central Nervous System
 ANAT9240,Anatomy & Physiology,P,A somewhat independent nervous system for the intestines,,,,,,,Enteric Nervous System,Anatomy & Physiology,18 - Nervous System Cells
 ANAT9240,Anatomy & Physiology,P,A major class of nerve that originates from the spinal cord,,,,,,,Spinal Nerve,Anatomy & Physiology,18 - Nervous System Cells
-ANAT9240,Anatomy & Physiology,P,The common term for a cerebrocascular accident,,,,,,,Stroke,Anatomy & Physiology,18 - Nervous System Cells
+ANAT9240,Anatomy & Physiology,P,The common term for a cerebrovascular accident,,,,,,,Stroke,Anatomy & Physiology,18 - Nervous System Cells
 ANAT9240,Anatomy & Physiology,P,The component of a neuron that determines whether a neurotransmitter will be inhibitory or excitatory,,,,,,,Receptor,Anatomy & Physiology,18 - Nervous System Cells
 ANAT9240,Anatomy & Physiology,P,The layer of the meninges that acts as a protective covering that actually touches the brain,,,,,,,Pia Mater,Anatomy & Physiology,20 - Central Nervous System
 ANAT9240,Anatomy & Physiology,P,The division of the nervous system that involves conscious control of the body,,,,,,,Somatic Nervous System,Anatomy & Physiology,18 - Nervous System Cells
@@ -703,7 +703,7 @@ ANAT9240,Anatomy & Physiology,P,A type of reflex where one one synapse is activa
 ANAT9240,Anatomy & Physiology,P,Alpha & Beta NE receptors belong to this family of receptors,,,,,,,Adrenergic Receptors,Anatomy & Physiology,22 - Autonomic Nervous System
 ANAT9240,Anatomy & Physiology,P,The type of reflex (speaking to the division of the nervous system) that would activate skeletal muscles,,,,,,,Somatic Reflex,Anatomy & Physiology,21 - Peripheral Nervous System
 ANAT9240,Anatomy & Physiology,P,The structure (also in the name of many sensory cells) that is found on tactile sensory neurons and speaks to the encapsulation of dendrites,,,,,,,Corpuscle,Anatomy & Physiology,23 - General Senses
-ANAT9240,Anatomy & Physiology,P,The gyrus that is thought to be responsible for factial recognition,,,,,,,Fusiform Gyrus,Anatomy & Physiology,24 - Special Senses
+ANAT9240,Anatomy & Physiology,P,The gyrus that is thought to be responsible for facial recognition,,,,,,,Fusiform Gyrus,Anatomy & Physiology,24 - Special Senses
 ANAT9240,Anatomy & Physiology,P,Clouded vision caused by opaque lenses,,,,,,,Cataracts,Anatomy & Physiology,24 - Special Senses
 ANAT9240,Anatomy & Physiology,P,"The class of sense that would include the eye, hearing, and taste",,,,,,,Special Senses,Anatomy & Physiology,24 - Special Senses
 ANAT9240,Anatomy & Physiology,P,"A cranial nerve that innervates the kidneys, stomach, liver, and heart",,,,,,,Vagus Nerve,Anatomy & Physiology,21 - Peripheral Nervous System
@@ -711,7 +711,7 @@ ANAT9240,Anatomy & Physiology,P,"The acronym for the ion channels responsible fo
 ANAT9240,Anatomy & Physiology,P,The type of receptor found in the cochlea,,,,,,,Mechanoreceptor,Anatomy & Physiology,24 - Special Senses
 ANAT9240,Anatomy & Physiology,P,The indentation of the retina where high resolution vision is formed,,,,,,,Fovea,Anatomy & Physiology,24 - Special Senses
 ANAT9240,Anatomy & Physiology,P,There are 31 pairs of these types of nerves running through the vertebra,,,,,,,Spinal Nerves,Anatomy & Physiology,21 - Peripheral Nervous System
-ANAT9240,Anatomy & Physiology,P,"For ""light touch"" sensation, a pair of cells are used - A tactile ______ and a tactile epithelial cells",,,,,,,Tactile Disk,Anatomy & Physiology,23 - General Senses
+ANAT9240,Anatomy & Physiology,P,"For ""light touch"" sensation, a pair of cells are used - A tactile ______ and a tactile epithelial cells",,,,,,,Disk,Anatomy & Physiology,23 - General Senses
 ANAT9240,Anatomy & Physiology,P,Cranial reflexes contain interneurons located here,,,,,,,Brain,Anatomy & Physiology,21 - Peripheral Nervous System
 ANAT9240,Anatomy & Physiology,P,The type of sense receptor that detects external stimuli,,,,,,,Exteroceptor,Anatomy & Physiology,23 - General Senses
 ANAT9240,Anatomy & Physiology,P,The tissue that makes up the white in your eyes,,,,,,,Sclera,Anatomy & Physiology,24 - Special Senses
@@ -747,7 +747,7 @@ ANAT9240,Anatomy & Physiology,P,The term given to an area of skin supplied by a 
 ANAT9240,Anatomy & Physiology,P,The type of receptor found in the tastebuds,,,,,,,Chemoreceptor,Anatomy & Physiology,24 - Special Senses
 ANAT9240,Anatomy & Physiology,P,An infant's reflex describing the faning of the toes in response to a sharp stimuli being rubbed on the sole,,,,,,,Babinski Reflex,Anatomy & Physiology,21 - Peripheral Nervous System
 ANAT9240,Anatomy & Physiology,P,Speaking to the pain felt in one area of the body but actually originating in another,,,,,,,Referred Pain,Anatomy & Physiology,23 - General Senses
-ANAT9240,Anatomy & Physiology,P,"The formal term for ""smell""",,,,,,,Gustation,Anatomy & Physiology,24 - Special Senses
+ANAT9240,Anatomy & Physiology,P,"The formal term for ""taste""",,,,,,,Gustation,Anatomy & Physiology,24 - Special Senses
 ANAT9240,Anatomy & Physiology,P,T1-T12 indicates this group of spinal nerves,,,,,,,Thoracic Nerves,Anatomy & Physiology,21 - Peripheral Nervous System
 ANAT9240,Anatomy & Physiology,P,Alpha and Beta receptors belong to which neurotransmitter family?,Epinephrine/Norepinephrine,Acetylcholine,Serotonin,,,,A,Anatomy & Physiology,22 - Autonomic Nervous System
 ANAT9240,Anatomy & Physiology,P,Muscarinic and nicotinic receptors belong to which neurotransmitter family?,Epinephrine/Norepinephrine,Acetylcholine,Serotonin,,,,B,Anatomy & Physiology,22 - Autonomic Nervous System
