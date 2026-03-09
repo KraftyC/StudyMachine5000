@@ -841,44 +841,111 @@ ANAT9240,Anatomy & Physiology,T,The intrinsic muscles located within the eye are
 ANAT9240,Anatomy & Physiology,T,Accommodation for near vision necessitates,Constriction of the pupils,Convergence of the two eyes,An increase in the curvature of the lens,All of these,,,D,Anatomy & Physiology,24 - Special Senses
 ANAT9240,Anatomy & Physiology,T,"As people grow older, they tend to become farsighted. This condition is called",Accommodation,Hyperopia,Myopia,Astigmatism,,,B,Anatomy & Physiology,24 - Special Senses
 ANAT9240,Anatomy & Physiology,T,_____ is a progressive hearing loss that is associated with aging and results from degeneration of nerve tissue in the ear and the vestibulocochlear nerve.,Otitis,Tinnitus,Presbycusis,Otosclerosis,,,C,Anatomy & Physiology,24 - Special Senses
-ANAT9240,Anatomy & Physiology,P,Normal Breathing,,,,,,,Eupnea,,
-ANAT9240,Anatomy & Physiology,P,The class of chemoreceptor that responds to the partial pressure of gasses in blood plasma,,,,,,,Peripheral Chemoreceptor,,
-ANAT9240,Anatomy & Physiology,P,"The muscles that change the length and tension of the vocal folds, allowing for changes in tone and pitch when speaking",,,,,,,Intrinsic Muscles,,
-ANAT9240,Anatomy & Physiology,P,The capacity that is the maximum amount of air that can be moved in a single breath,,,,,,,Vital Capacity,,
-ANAT9240,Anatomy & Physiology,P,The concave area on the medial surface of the lungs where the primary bronchi and the pulmonary blood vessels enter,,,,,,,Hilum,,
-ANAT9240,Anatomy & Physiology,P,Inflammation of the tonsils,,,,,,,Tonsillitis,,
-ANAT9240,Anatomy & Physiology,P,Laboured or difficult breathing,,,,,,,Dyspnea,,
-ANAT9240,Anatomy & Physiology,P,Inflammation of the nasal cavity,,,,,,,Rhinitis,,
-ANAT9240,Anatomy & Physiology,P,Prevents the collapse of alveoli,,,,,,,Surfactant,,
-ANAT9240,Anatomy & Physiology,P,"The inferior most part of the trachea, dividing the left and right primary bronchi",,,,,,,Carina,,
-ANAT9240,Anatomy & Physiology,P,The superior most portion of the lungs,,,,,,,Apex,,
-ANAT9240,Anatomy & Physiology,P,The zone that consists of all respiratory passages that DO NOT participate in gas exchange,,,,,,,Conducting Zone,,
-ANAT9240,Anatomy & Physiology,P,Decreasing PO2 accelerates oxygen ________ from oxyhemoglobin,,,,,,,Dissociation,,
-ANAT9240,Anatomy & Physiology,P,The class of bronchioles that give rise to alveolar ducts,,,,,,,Respiratory Bronchioles,,
-ANAT9240,Anatomy & Physiology,P,The cell group that forms mucous in the respiratory tracts,,,,,,,Goblet Cells,,
-ANAT9240,Anatomy & Physiology,P,The largest volume of air that can be forcibly exhaled after tidal volume is exhaled,,,,,,,Expiratory Reserve Volume,,
-ANAT9240,Anatomy & Physiology,P,Cancer that is mainly caused by asbestos,,,,,,,Mesothelioma,,
-ANAT9240,Anatomy & Physiology,P,Immediately after the nasal cavity during inhalation,,,,,,,Nasopharynx,,
-ANAT9240,Anatomy & Physiology,P,Increasing blood PO2 accelerates hemoglobin ______ with oxygen,,,,,,,Association,,
-ANAT9240,Anatomy & Physiology,P,The anatomical location of nasal hairs,,,,,,,Vestibule,,
-ANAT9240,Anatomy & Physiology,P,The subsection of the pharynx that is immediately behind the tongue,,,,,,,Oropharynx,,
-ANAT9240,Anatomy & Physiology,P,The shape of the cartilage in the trachea,,,,,,,Ring Shaped,,
-ANAT9240,Anatomy & Physiology,P,The upper folds that are considered the false vocal cords,,,,,,,Vestibular Folds,,
-ANAT9240,Anatomy & Physiology,P,"The collective term for the lymphatic tissue in the upper respiratory tract. The body has pharyngeal, palatine, and lingual ones of these.",,,,,,,Tonsils,,
-ANAT9240,Anatomy & Physiology,P,The main muscle involved in tidal breathing,,,,,,,Diaphragm,,
-ANAT9240,Anatomy & Physiology,P,The formal term for the nostrils,,,,,,,Nares,,
-ANAT9240,Anatomy & Physiology,P,The ciliary ________ coninually moves mucous in the respiratory tract upward and towards the esophagus,,,,,,,Ciliary Escalator,,
-ANAT9240,Anatomy & Physiology,P,The structure that divides individual alveoli,,,,,,,Alveolar Septum,,
-ANAT9240,Anatomy & Physiology,P,The only fissure in the left lung,,,,,,,Oblique Fissure,,
-ANAT9240,Anatomy & Physiology,P,The fleshy projections that increase the surface area of the nasal cavity,,,,,,,Concha,,
-ANAT9240,Anatomy & Physiology,P,The ions that account for more than 66% of the carbon dioxide transported in blood,,,,,,,Bicarbonate,,
-ANAT9240,Anatomy & Physiology,P,The passageway that air travels through in the nasal cavity,,,,,,,Meatus,,
-ANAT9240,Anatomy & Physiology,P,Inflammation of the larynx,,,,,,,Laryngitis,,
-ANAT9240,Anatomy & Physiology,P,The only unbranched structure of the lower respiratory tract,,,,,,,Trachea,,
-ANAT9240,Anatomy & Physiology,P,The pressure between the lung surface and the interior of the thoracic cavity,,,,,,,Intrapleural Pressure,,
-ANAT9240,Anatomy & Physiology,P,The unique fissure found only in the right lung,,,,,,,Horizontal Fissure,,
-ANAT9240,Anatomy & Physiology,P,Inflammation of the lungs,,,,,,,Pneumonia,,
-ANAT9240,Anatomy & Physiology,P,The term given to the third branching point of the bronchi,,,,,,,Tertiary Bronchi,,
+ANAT9240,Anatomy & Physiology,P,Normal Breathing,,,,,,,Eupnea,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,The class of chemoreceptor that responds to the partial pressure of gasses in blood plasma,,,,,,,Peripheral Chemoreceptor,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,"The muscles that change the length and tension of the vocal folds, allowing for changes in tone and pitch when speaking",,,,,,,Intrinsic Muscles,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The capacity that is the maximum amount of air that can be moved in a single breath,,,,,,,Vital Capacity,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,The concave area on the medial surface of the lungs where the primary bronchi and the pulmonary blood vessels enter,,,,,,,Hilum,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Inflammation of the tonsils,,,,,,,Tonsillitis,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Laboured or difficult breathing,,,,,,,Dyspnea,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,Inflammation of the nasal cavity,,,,,,,Rhinitis,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Prevents the collapse of alveoli,,,,,,,Surfactant,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,"The inferior most part of the trachea, dividing the left and right primary bronchi",,,,,,,Carina,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The superior most portion of the lungs,,,,,,,Apex,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The zone that consists of all respiratory passages that DO NOT participate in gas exchange,,,,,,,Conducting Zone,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Decreasing PO2 accelerates oxygen ________ from oxyhemoglobin,,,,,,,Dissociation,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,P,The class of bronchioles that give rise to alveolar ducts,,,,,,,Respiratory Bronchioles,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The cell group that forms mucous in the respiratory tracts,,,,,,,Goblet Cells,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The largest volume of air that can be forcibly exhaled after tidal volume is exhaled,,,,,,,Expiratory Reserve Volume,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,Cancer that is mainly caused by asbestos,,,,,,,Mesothelioma,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Immediately after the nasal cavity during inhalation,,,,,,,Nasopharynx,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Increasing blood PO2 accelerates hemoglobin ______ with oxygen,,,,,,,Association,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,P,The anatomical location of nasal hairs,,,,,,,Vestibule,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The subsection of the pharynx that is immediately behind the tongue,,,,,,,Oropharynx,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The shape of the cartilage in the trachea,,,,,,,Ring Shaped,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The upper folds that are considered the false vocal cords,,,,,,,Vestibular Folds,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,"The collective term for the lymphatic tissue in the upper respiratory tract. The body has pharyngeal, palatine, and lingual ones of these.",,,,,,,Tonsils,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The main muscle involved in tidal breathing,,,,,,,Diaphragm,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The formal term for the nostrils,,,,,,,Nares,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The ciliary ________ coninually moves mucous in the respiratory tract upward and towards the esophagus,,,,,,,Ciliary Escalator,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The structure that divides individual alveoli,,,,,,,Alveolar Septum,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The only fissure in the left lung,,,,,,,Oblique Fissure,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The fleshy projections that increase the surface area of the nasal cavity,,,,,,,Concha,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The ions that account for more than 66% of the carbon dioxide transported in blood,,,,,,,Bicarbonate,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,P,The passageway that air travels through in the nasal cavity,,,,,,,Meatus,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Inflammation of the larynx,,,,,,,Laryngitis,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The only unbranched structure of the lower respiratory tract,,,,,,,Trachea,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The pressure between the lung surface and the interior of the thoracic cavity,,,,,,,Intrapleural Pressure,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,The unique fissure found only in the right lung,,,,,,,Horizontal Fissure,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Inflammation of the lungs,,,,,,,Pneumonia,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The term given to the third branching point of the bronchi,,,,,,,Tertiary Bronchi,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Which of the following structures is part of the upper respiratory tract?,Trachea,Alveoli,Nasopharynx,Bronchi,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,What type of epithelium lines the mucous membrane of the respiratory tract?,Simple squamous epithelium,Stratified squamous epithelium,Pseudostratified columnar epithelium,Transitional epithelium,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Which muscle contractions assist in forced expiration?,Diaphragm,External Intercostals,Abdominal Muscles,Pectoral Muscles,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,What structure divides the nasal cavity into left and right halves?,Conchae,Septum,Vestibule,Meatus,,,B,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,What term describes normal quiet breathing?,Hyperpnea,Dyspnea,Eupnea,Apnea,,,C,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,What function do the nasal hairs in the vestibule serve?,Warm the Air,Moisten the Air,Filter Large Particles,Detect Smells,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,What is the primary function of the tracheal cartilaginous rings?,To assist in vocalization,To keep the trachea from collapsing,To moisten the air,To trap particles,,,B,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Which structure connects the larynx to the primary bronchi?,Pharynx,Alveoli,Trachea,Nasal Cavity,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,How many pairs of paranasal sinuses are there?,Two,Three,Four,Five,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,What is the primary function of alveoli?,Filter the Air,Warm the Air,Gas Exchange,Produce Mucus,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Which part of the respiratory system is responsible for ventilation-perfusion coupling?,Trachea,Bronchi,Alveoli,Nasopharynx,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,What is the role of goblet cells in the respiratory mucosa?,Produce Mucus,Move Air,Gas Exchange,Produce Surfactant,,,A,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Which part of the brain regulates the basic rhythm of the respiratory cycle?,Cerebral Cortex,Medullary Rhythmicity Area,Pons,Thalamus,,,B,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,"Which sensory inputs to the medullary rhythmicity center detect O2, CO2, and pH changes?",Apneustic Centre,Cerebral Cortex,Aortic & Carotid Chemoreceptors,Peripheral Chemoreceptors,,,C,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,Which of the following structures responds to local PCO2 levels?,Arterioles,Capillaries,Alveoli,Bronchioles,,,D,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,What is the effect of high PCO2 on local bronchioles?,Constriction,Dilation,No Effect,Inflammation,,,B,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,Which condition is characterized by labored or difficult breathing?,Eupnea,Dyspnea,Hyperpnea,Apnea,,,B,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,P,Which of the following structures are part of the respiratory zone?,Nasal Cavity,Trachea,Bronchioles,Alveolar Ducts,,,D,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Goblet cells in the respiratory mucosa produce mucus to trap particles,TRUE,FALSE,,,,,A,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Organs of the upper respiratory tract are located outside the thorax,TRUE,FALSE,,,,,A,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,Surfactant is produced by type I cells of the alveolar wall,TRUE,FALSE,,,,,B,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,P,The larynx is also known as the voice box,TRUE,FALSE,,,,,A,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,Gas exchange occurs only in the,Alveoli,Bronchioles,Bronchi,Upper Respiratory Tract,,,A,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,"The trachea, bronchial tree, and lungs make up the",Upper Respiratory Tract,None of These,Lower Respiratory Tract,Cell Respiration,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,The roof of the nose is separated from the cranial cavity by a portion of the ethmoid bone called the,Cleft Palate,Palatine Bone,Cribriform Plate,Ala,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,"If you were to trace the movement of air through the nose into the pharynx, it would pass through the following structures in which order?","Anterior nares, vestibule, meatus, and posterior nares","Posterior nares, anterior nares, vestibule, and meatus","Vestibule, anterior nares, meatus, and posterior nares","Anterior nares, posterior nares, meatus, and vestibule",,,A,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,"The air-containing spaces that open, or drain, into the nasal cavity are called",Conchae,Paranasal Sinuses,Turbinates,Nasal Mucosa,,,B,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,The vibrissae function as,Baffles,Producers of Mucus,All of These,Filters,,,D,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,Which organ consists largely of cartilages that are attached to one another and to surrounding structures by muscles or fibrous and elastic tissue components?,Lung,Nose,Pharynx,Larynx,,,D,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,The small leaf-shaped cartilage that projects upward behind the tongue and hyoid bone is the,Cricoid Cartilage,Thyroid Cartilage,Glottis,Epiglottis,,,D,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,The trachea divides at its lower end into two,Secondary Bronchi,Alveoli,Primary Bronchi,Bronchioles,,,C,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,The surface of the respiratory membrane inside each alveolus is coated with a fluid containing,A Respiratory Membrane,An Air Sac,A Bronchiole,Surfactant,,,D,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,The microscopic cilia function to,Move mucus towards the pharynx,Move air to the pharynx,Move air to the lungs,Filter air,,,A,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,The _____ of each lung lies against the ribs and is rounded to match the contours of the thoracic cavity,Hilum,Costal Surface,Base,Apex,,,B,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,"During respiration, the thorax",Does not change,None of these,Becomes smaller when the chest is raised,Becomes larger when the chest is raised,,,D,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,A common condition characterized by acute inflammation of the tracheobronchial tree is,Pharyngitis,Acute Bronchitis,Epistaxis,Laryngitis,,,B,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,An inflammation of the lower respiratory tract that involves the airways of the lungs is called,Rhinitis,Acute Bronchitis,Tuberculosis,Pneumonia,,,D,Anatomy & Physiology,35 - Respiratory Tract
+ANAT9240,Anatomy & Physiology,T,The mechanism that produces pulmonary ventilation is one that establishes a gas pressure gradient between the,None of these,Atmosphere and air in the upper respiratory tract,Atmosphere and the alveolar air,Alveolar air and the upper respiratory tract,,,C,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,Pressure gradients are established by changes in the,Upper Respiratory Tract,Thoracic Cavity,Abdominal Cavity,Atmosphere,,,B,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,_____ law states that the volume of a gas is inversely proportional to its pressure,Dalton's,Henry's,Charles',Boyle's,,,D,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,"During inspiration, as the size of the thorax increases, the",Alveolar pressure decreases and the intrapleural pressure increases,Alveolar pressure increases and the intrapleural pressure decreases,Intrapleural and alveolar pressures decrease,Intrapleural and alveolar pressures increase,,,C,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,The ability of the lungs and thorax to stretch is referred to as,Elastic Recoil,Compliance,Partial Pressure,Pressure Equilibrium,,,B,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,"During the respiratory cycle, intrapleural pressure is always less than alveolar pressure. This difference is called",Transpulmonary Pressure,Inflation Pressure,Continuous Positive Airway Pressure,Elastic Recoil,,,A,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,The apparatus used to measure the volume of air exchanged in breathing is called a(n),Otoscope,Spirometer,Opthalmoscope,Sphygmomanometer,,,B,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,The volume of air exhaled normally after a typical inspiration is called _____ volume,Residual,Inspiratory Reserve,Tidal,Expiratory Reserve,,,C,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,The _____ represents the largest volume of air an individual can move in and out of the lungs,Vital Capacity,Tidal Volume,Inspiratory Capacity,Total Lung Capacity,,,A,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,"Which term refers to the volume of inspired air that actually reaches, or “ventilates,” the alveoli?",Residual Ventilation,Alveolar Ventilation,Physiological Dead Space,Pulmonary Ventilation,,,B,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,The forced expiratory volume test can determine the presence of respiratory obstruction by measuring the,Volume of air inspired per second after forced expiration,Volume of air expired per second during forced expiration,Volume of air inspired per second after a normal expiration,Volume of air expired per second after a normal expiration,,,B,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,Hyperpnea means a(n),Increase in breathing,Repeated sequence of deep gasps,Temporary cessation of breathing at the end of a normal expiration,Decrease in breathing,,,A,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,The basic rhythm of the respiratory cycle of inspiration and expiration seems to be generated by the,Medullary Rhythmicity Area,Apneustic Centre,Pons,Pneumotaxic Centre,,,A,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,The sensors that provide feedback information to the medullary rhythmicity area are the,Central chemoreceptors and peripheral mechanoreceptors,Peripheral chemoreceptors and peripheral mechanoreceptors,Peripheral chemoreceptors and central mechanoreceptors,Central chemoreceptors and peripheral chemoreceptors,,,D,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,An obstructive lung disorder that is characterized by recurring spasms of the smooth muscles in the wall of the bronchial air passages is,Chronic Obstructive Pulmonary Disease,Asthma,Dyspnea,Emphysema,,,B,Anatomy & Physiology,36 - Ventilation
+ANAT9240,Anatomy & Physiology,T,"According to the law of partial pressures, the partial pressure of gas in a mixture of gases is",Directly related to the concentration of that gas in the mixture and to the total pressure of the mixture,Indirectly related to the concentration of gases in the total mixture,Inversely proportional to the volume of gases in the mixture,Inversely proportional to the concentration of that gas in the mixture and to the total pressure of the mixture,,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,Oxygen enters blood from alveolar air because the partial pressure of alveolar air is,None of these,The same as the incoming partial pressure of blood,Greater than the partial pressure of incoming blood,Less than the partial pressure of incoming blood,,,C,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,The amount of oxygen that diffuses into blood each minute depends on which factor?,All of these,Oxygen pressure gradient between alveolar air and incoming pulmonary blood,Total functional surface area of the respiratory membrane,Alveolar ventilation,Respiratory minute volume,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,Which structural feature facilitates oxygen diffusion from the alveolar air into the blood in lung capillaries?,The lung capillaries accommodate a large amount of blood at one time,The alveolar and capillary walls are both very thin,All of these are correct,Each red blood cell comes close to alveolar air,The alveolar and capillary surfaces are both extremely large,,C,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,The exact amount of oxygen in blood depends mainly on the amount of,Protein,White Blood Cells,Hemoglobin,Platelets,,,C,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,In what form does oxygen travel in the blood?,Dissolved oxygen in the plasma,Associated with bicarbonate ions,Both Dissolved oxygen in the plasma and Associated with hemoglobin,Associated with hemoglobin,,,C,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,The compound formed when carbon dioxide combines with hemoglobin is,Carbaminohemoglobin,Carbamino Compound,Oxyhemoglobin,Bicarbonate Ion,,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,"When carbon dioxide dissolves in water, some of the carbon dioxide molecules associate with water to form",Bicarbonate Ions,Amino Acid,Hydroxyl Ions,Carbonic Acid,,,D,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,"The exit of the bicarbonate ion from the red blood cell is balanced by the inward transport of another negative ion, chloride. This countertransport of negative ions is often called the _____ shift",Carbonic,Right,Bicarbonate,Chloride,,,D,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,An increase in carbon dioxide in the blood causes,A drop in pH in the blood,No change in pH,An increase in pH in the blood,An increase in partial pressure,,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,A right shift of the oxygen-hemoglobin dissociation curve due to increased partial pressure of carbon dioxide is also known as,The Bohr Effect,The Haldane Effect,Dalton's Law,Charles' Law,,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,Which oxygen-binding protein helps move oxygen out of the blood and into muscle cells?,Myoglobin,Myofibril,Fetal Hemoglobin,Carbaminohemoglobin,,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,What variations exist in the body to temporarily store or carry oxygen?,All of these,Myoglobin,Neuroglobin,Fetal Hemoglobin,,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,More than two-thirds of the carbon dioxide carried by blood is carried in the form of,Bicarbonate Ions,Carbonic Acid,Carbamino Compounds,Dissolved Plamsa Proteins,,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
+ANAT9240,Anatomy & Physiology,T,Increasing PCO2 and decreasing PO2 together,Favor carbon dioxide dissociation from deoxyhemoglobin and oxygen association with hemoglobin,Dissociate carbon dioxide from hemoglobin to form carbaminohemoglobin,Favor oxygen dissociation from oxyhemoglobin and carbon dioxide association with hemoglobin to form carbaminohemoglobin,Associate oxygen to form oxyhemoglobin,,,C,Anatomy & Physiology,37 - Gas Exchange & Transport
 PSYC9210,Lifespan Development,AI,Which characteristic describes lifespan development?,Lifelong,Unidirectional,Purely biological,Fixed after adolescence,,,A,Developmental Psychology: A Canadian Perspective,1 - Introduction to Lifespan Development
 PSYC9210,Lifespan Development,AI,Development is multidimensional because it includes:,Only biological changes,"Biological, cognitive, and socioemotional processes",Only cognitive changes,Only social changes,,,B,Developmental Psychology: A Canadian Perspective,1 - Introduction to Lifespan Development
 PSYC9210,Lifespan Development,AI,Which term describes the capacity for change throughout life?,Plasticity,Stability,Maturation,Fixity,,,A,Developmental Psychology: A Canadian Perspective,1 - Introduction to Lifespan Development
@@ -1181,6 +1248,26 @@ PSYC9210,Lifespan Development,AI,"Temperament type: adaptable, positive, regular
 PSYC9210,Lifespan Development,AI,"Temperament type: active, easily frustrated, intense",,,,,,,Intense temperament,Developmental Psychology: A Canadian Perspective,4 - Early Childhood
 PSYC9210,Lifespan Development,AI,"Temperament type: cautious, withdraws from new situations",,,,,,,Slow-to-warm-up temperament,Developmental Psychology: A Canadian Perspective,4 - Early Childhood
 PSYC9210,Lifespan Development,AI,Match between temperament and environment,,,,,,,Goodness of fit,Developmental Psychology: A Canadian Perspective,4 - Early Childhood
+PSYC9210,Lifespan Development,AI,What is the typical growth rate during middle and late childhood?,1–2 cm per year,3–4 cm per year,5–7.5 cm per year,10 cm per year,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Which brain region shows major development in middle–late childhood?,Occipital lobe,Prefrontal cortex,Brainstem,Cerebellum,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,What experience is noted as beneficial for brain development during this period?,Competitive sports,Music lessons,Video gaming,Independent reading,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,What improves fine motor skills in middle–late childhood?,Increased muscle mass,Improved balance,Increased myelination,Better vision,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,"According to Piaget, children aged 7–11 are in which stage?",Sensorimotor,Preoperational,Concrete operational,Formal operational,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Seriation refers to the ability to:,Classify objects by colour,Order stimuli along a quantitative dimension,Understand hypothetical situations,Use symbolic reasoning,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Selective attention is defined as:,Focusing for long periods,Ignoring irrelevant information,Planning actions,Switching between tasks,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Divergent thinking involves:,Finding one correct answer,Following rules,Generating many unique solutions,Repeating learned responses,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Mental age divided by chronological age ×100 defines:,Achievement score,Processing speed,Intelligence quotient,Cognitive load,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Which of Gardner’s intelligences involves understanding oneself?,Interpersonal,Intrapersonal,Naturalist,Verbal,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,A core feature of Autism Spectrum Disorder is:,High verbal ability,Enhanced motor coordination,Persistent deficits in social communication,Superior memory,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,The constructivist approach to education emphasizes:,Teacher‑directed instruction,Memorization,Learner‑centred knowledge construction,Strict behavioural control,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,"According to Erikson, the key psychosocial task of middle childhood is:",Autonomy vs shame,Initiative vs guilt,Industry vs inferiority,Identity vs role confusion,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Children in middle childhood increasingly describe themselves using:,Physical traits,Concrete behaviours,Psychological characteristics,Family roles,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Emotional regulation is considered a component of:,Gross motor development,Executive function,Moral reasoning,Language acquisition,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Kohlberg believed moral development is strongly influenced by:,Parental discipline,Peer interaction,Biological maturation,Religious teaching,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,A major reason to avoid corporal punishment is that it:,Improves compliance,Teaches emotional regulation,Can instill fear and avoidance,Strengthens attachment,,,C,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Children of divorced parents may experience:,Higher academic achievement,Earlier sexual activity,Greater social responsibility,Fewer peer difficulties,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,Low socioeconomic status is associated with reduced access to:,Extracurricular activities,Healthcare and nutrition,Peer relationships,Digital media,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
+PSYC9210,Lifespan Development,AI,A key parental influence on children’s peer relations is:,Genetic similarity,Parents’ own friendships and social choices,School grading policies,Sibling birth order,,,B,Developmental Psychology: A Canadian Perspective,5 - Middle & Late Childhood
 BSCN9200,Family Health,T,"A family includes a parent, a step-parent, two teenaged biological children of the parent, and an adult biological child of the step-parent. The adult child of the step-parent moves home after losing a job in another city. The family converts an office into another bedroom and redistributes household chores. The family members feel they are able to adjust to lifestyle changes. Which family attribute does this demonstrate?",Diversity,Durability,Resiliency,Composition,,,C,Canadian Fundamentals of Nursing,20 - Family Health
 BSCN9200,Family Health,T,What is generally true about the current family structure of Indigenous peoples?,They tend to be smaller,They tend to have little diversity,"Each community has the same traditions, rituals, relationships and functions",They tend to have younger family members,,,D,Canadian Fundamentals of Nursing,20 - Family Health
 BSCN9200,Family Health,T,"Which term is used for a family that includes a parent, a step-parent, and the biological children of each parent?",A nuclear family,A blended family,An extended family,Lone-parent family,,,B,Canadian Fundamentals of Nursing,20 - Family Health
