@@ -1,7 +1,7 @@
 export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Chapter1, Chapter2, ... ] }}}
   ANAT9240: {
-    "Test #2": {
-      "Anatomy & Physiology": [ "18 - Nervous System Cells", "19 - Nerve Signaling", "20 - Central Nervous System", "21 - Peripheral Nervous System", "22 - Autonomic Nervous System", "23 - General Senses", "24 - Special Senses", "27 - Blood", "28 - Heart", "29 - Blood Vessels", "30 - Circulation of Blood" ]
+    "Test #3": {
+      "Anatomy & Physiology": [ "35 - Respiratory Tract", "36 - Ventilation", "37 - Gas Exchange & Transport", "38 - Upper Digestive Tract", "39 - Lower Digestive Tract", "40 - Digestion & Absorption" ]
     }
   },
   PSYC9210: {

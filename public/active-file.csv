@@ -946,113 +946,135 @@ ANAT9240,Anatomy & Physiology,T,Which oxygen-binding protein helps move oxygen o
 ANAT9240,Anatomy & Physiology,T,What variations exist in the body to temporarily store or carry oxygen?,All of these,Myoglobin,Neuroglobin,Fetal Hemoglobin,,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
 ANAT9240,Anatomy & Physiology,T,More than two-thirds of the carbon dioxide carried by blood is carried in the form of,Bicarbonate Ions,Carbonic Acid,Carbamino Compounds,Dissolved Plamsa Proteins,,,A,Anatomy & Physiology,37 - Gas Exchange & Transport
 ANAT9240,Anatomy & Physiology,T,Increasing PCO2 and decreasing PO2 together,Favor carbon dioxide dissociation from deoxyhemoglobin and oxygen association with hemoglobin,Dissociate carbon dioxide from hemoglobin to form carbaminohemoglobin,Favor oxygen dissociation from oxyhemoglobin and carbon dioxide association with hemoglobin to form carbaminohemoglobin,Associate oxygen to form oxyhemoglobin,,,C,Anatomy & Physiology,37 - Gas Exchange & Transport
-ANAT9240,Anatomy & Physiology,P,The formal name of the canal that makes up the digestive system,,,,,,,Alimentary Canal,,
-ANAT9240,Anatomy & Physiology,P,Circular folds in the small intestine,,,,,,,Plicae,,
-ANAT9240,Anatomy & Physiology,P,Structures of various size and shape that hold tastebuds,,,,,,,Papillae,,
-ANAT9240,Anatomy & Physiology,P,The hormone that causes release of bile (hint: acronym is 'CCK'),,,,,,,Cholecystokinin,,
-ANAT9240,Anatomy & Physiology,P,Class of medication used to lower blood cholesterol,,,,,,,Statin,,
-ANAT9240,Anatomy & Physiology,P,Pancreatic cell type responsible for secreting pancreatic juices,,,,,,,Acinar Cell,,
-ANAT9240,Anatomy & Physiology,P,The type of rectal sphincter valves that are under voluntary control,,,,,,,External Rectal Sphincter Valves,,
-ANAT9240,Anatomy & Physiology,P,The folds of the peritoneum that cover the intestines,,,,,,,Mesentery,,
-ANAT9240,Anatomy & Physiology,P,The bile duct that combines with the cystic (gallbladder) and hepatic (liver) ducts,,,,,,,Common Bile Duct,,
-ANAT9240,Anatomy & Physiology,P,The formal term given to the layer of the GI tract containing layers of smooth muscle tissue,,,,,,,Muscularis,,
-ANAT9240,Anatomy & Physiology,P,The inner most layer of tissue in the GI tract,,,,,,,Mucosa,,
-ANAT9240,Anatomy & Physiology,P,These allow the stomach to expand to accommodate a large meal,,,,,,,Rugae,,
-ANAT9240,Anatomy & Physiology,P,The functional unit of the liver,,,,,,,Lobule,,
-ANAT9240,Anatomy & Physiology,P,"The layer of the GI tract that contains glands, blood vessels, and nerves",,,,,,,Submucosa,,
-ANAT9240,Anatomy & Physiology,P,Bulges or pockets found in the large intestine,,,,,,,Haustra,,
-ANAT9240,Anatomy & Physiology,P,The energy required to digest food (hint: acronym is 'TEF'),,,,,,,Thermic Effect of Food,,
-ANAT9240,Anatomy & Physiology,P,Fluid stored in the gallbladder,,,,,,,Bile,,
-ANAT9240,Anatomy & Physiology,P,The name for an enzyme that breaks down some carbohydrates,,,,,,,Amylase,,
-ANAT9240,Anatomy & Physiology,P,The term given to describe the region of the stomach that connects with the esophagus,,,,,,,Cardia,,
-ANAT9240,Anatomy & Physiology,P,Additional sacs or outcroppings found in the large intestine,,,,,,,Diverticulosis,,
-ANAT9240,Anatomy & Physiology,P,The hormone released by adipose tissue that indicates the level of body fat in an individual,,,,,,,Leptin,,
-ANAT9240,Anatomy & Physiology,P,The 'roof' of the stomach,,,,,,,Fundus,,
-ANAT9240,Anatomy & Physiology,P,The salivary gland that sits directly below the tongue,,,,,,,Sublingual Gland,,
-ANAT9240,Anatomy & Physiology,P,Describes what bile salts do to lipids and fats during digestion,,,,,,,Emulsify,,
-ANAT9240,Anatomy & Physiology,P,The system that is found linking the intestines and liver so that the liver can process absorbed nutrients before they go into general circulation,,,,,,,Portal System,,
-ANAT9240,Anatomy & Physiology,P,The cell type in a salivary gland that produces a watery solution,,,,,,,Serous Cell,,
-ANAT9240,Anatomy & Physiology,P,The cell type that produces hormones such as ghrelin within gastric glands,,,,,,,Endocrine Cell,,
-ANAT9240,Anatomy & Physiology,P,The 'middle' of a tooth - Harder than the inner core but softer than the outermost layer,,,,,,,Dentin,,
-ANAT9240,Anatomy & Physiology,P,The hormone responsible for increasing bile production in the liver,,,,,,,Secretin,,
-ANAT9240,Anatomy & Physiology,P,The formal term for the back of the tongue,,,,,,,Root,,
-ANAT9240,Anatomy & Physiology,P,The section of the large intestine that moves left to right across the abdomen,,,,,,,Transverse Colon,,
-ANAT9240,Anatomy & Physiology,P,The cell type that produces hydrochloric acid in gastric glands,,,,,,,Parietal Cell,,
-ANAT9240,Anatomy & Physiology,P,The pancreatic cell type responsible for secreting insulin,,,,,,,Beta Cell,,
-ANAT9240,Anatomy & Physiology,P,Type 1 diabetics are said to be insulin __________,,,,,,,Insulin Dependent,,
-ANAT9240,Anatomy & Physiology,P,The soft tissue of teeth containing blood vessels and nerves,,,,,,,Pulp,,
-ANAT9240,Anatomy & Physiology,P,The forward movement of material through the digestive tract,,,,,,,Peristalsis,,
-ANAT9240,Anatomy & Physiology,P,The liver and the pancreas are considered these types of organs in the digestive system,,,,,,,Accessory Organs,,
-ANAT9240,Anatomy & Physiology,P,Structures found on each individual cell that lines the surface of the small intestine,,,,,,,Microvilli,,
-ANAT9240,Anatomy & Physiology,P,The lamina propria is this type of tissue,,,,,,,Connective Tissue,,
-ANAT9240,Anatomy & Physiology,P,A type of protease found in the digestive tract,,,,,,,Trypsin,,
-ANAT9240,Anatomy & Physiology,P,The formal term for stomach contents mixed with gastric juices,,,,,,,Chyme,,
-ANAT9240,Anatomy & Physiology,P,The formal term for swallowed food,,,,,,,Bolus,,
-ANAT9240,Anatomy & Physiology,P,An open sore in the digestive tract,,,,,,,Ulcer,,
-ANAT9240,Anatomy & Physiology,P,Paneth and stem cells are found in these intestinal structures,,,,,,,Intestinal Crypts,,
-ANAT9240,Anatomy & Physiology,P,The first section of the large intestine,,,,,,,Ascending Colon,,
-ANAT9240,Anatomy & Physiology,P,Solid deposits of bile salts in the gallbladder,,,,,,,Gallstones,,
-ANAT9240,Anatomy & Physiology,P,The terminal section of the small intestine,,,,,,,Ileum,,
-ANAT9240,Anatomy & Physiology,P,Mixing by moving material back and forth in the intestines,,,,,,,Segmentation,,
-ANAT9240,Anatomy & Physiology,P,Describing the three main vessels that feed the hepatic lobules,,,,,,,Triad,,
-ANAT9240,Anatomy & Physiology,P,The general amount of energy used in a normal resting person throughout the day (hint: acronym is 'BMR'),,,,,,,Basal Metabolic Rate,,
-ANAT9240,Anatomy & Physiology,P,The superior most section of the esophagus,,,,,,,Cervical Esophagus,,
-ANAT9240,Anatomy & Physiology,P,The salivary gland that produces saliva with enzymes but no mucous and sits closest to the ear,,,,,,,Parotid Gland,,
-ANAT9240,Anatomy & Physiology,P,The region of the stomach that connects with the small intestine,,,,,,,Pylorus,,
-ANAT9240,Anatomy & Physiology,P,The pancreatic cell type responsible for secreting glucagon,,,,,,,Alpha Cell,,
-ANAT9240,Anatomy & Physiology,P,The cell type that produces pepsinogen in gastric glands,,,,,,,Chief Cell,,
-ANAT9240,Anatomy & Physiology,P,The term given to the circular muscles of the stomach that serve as valves,,,,,,,Sphincter,,
-ANAT9240,Anatomy & Physiology,P,The lingual webbing of tissue that keeps the tongue anchored to the floor of the mouth,,,,,,,Lingual Frenulum,,
-ANAT9240,Anatomy & Physiology,P,A phospholipid that helps to make fats soluble,,,,,,,Lecithin,,
-ANAT9240,Anatomy & Physiology,P,Type 2 diabetics are said to be insulin ________,,,,,,,Insulin Resistant,,
-ANAT9240,Anatomy & Physiology,P,The section of the tooth that is visible when you smile,,,,,,,Crown,,
-ANAT9240,Anatomy & Physiology,P,The outermost layer of the GI tract - Technically part of the peritoneum,,,,,,,Serosa,,
-ANAT9240,Anatomy & Physiology,T,The process of altering the chemical and physical composition of food so that it can be absorbed and used by the body cells is known as,Excretion,Circulation,Absorption,Digestion,,,D,,38 - Upper Digestive Tract
-ANAT9240,Anatomy & Physiology,T,The innermost layer of the GI wall is called the,Muscularis,Mucosa,Submucosa,Serosa,,,B,,
-ANAT9240,Anatomy & Physiology,T,The _____ consists of portions of two maxillae bones and two palatine bones,Hard Palate,Philtrum,Oral Fissure,Soft Palate,,,A,,
-ANAT9240,Anatomy & Physiology,T,The dorsal surface of the tongue is covered with rough elevated projections called,Papillae,Philtra,Lingual Frenula,Tubercles,,,A,,
-ANAT9240,Anatomy & Physiology,T,All of the following are pairs of salivary glands except the,Submandibulars,Sublinguals,Parotids,Submucosa,,,D,,
-ANAT9240,Anatomy & Physiology,T,Which salivary gland produces only a mucous type of saliva?,Submandibular,Parotid,All of these,Sublingual,,,D,,
-ANAT9240,Anatomy & Physiology,T,"Which type of dental tissue is a soft, fibrous connective tissue with blood vessels and nerves at the core of each tooth?",Pulp,Enamel,Dentin,Cementum,,,A,,
-ANAT9240,Anatomy & Physiology,T,"Early in life, 20 deciduous teeth appear. Later these are replaced by _____ permanent teeth",13,32,30,23,,,B,,
-ANAT9240,Anatomy & Physiology,T,The rounded mass of food that travels from the mouth to the stomach is called a,Chyme,Feces,Fundus,Bolus,,,D,,
-ANAT9240,Anatomy & Physiology,T,The _____ is a collapsible tube that extends from the pharynx to the stomach,Fundus,Esophagus,Trachea,Pylorus,,,B,,
-ANAT9240,Anatomy & Physiology,T,Which layer of the stomach contains an epithelial lining that is arranged into folds called rugae?,Serosa,Fundus,Mucosa,Muscularis,,,C,,
-ANAT9240,Anatomy & Physiology,T,The sphincter muscle that controls the opening of the esophagus into the stomach is the _____ sphincter,Fundus,Anal,Pyloric,Cardiac,,,D,,
-ANAT9240,Anatomy & Physiology,T,"The epithelial lining of the stomach is thrown into folds, which are called",Rugae,Gastric Glands,Gastric Pits,Submucosa,,,A,,
-ANAT9240,Anatomy & Physiology,T,"Gastric glands contain three major secretory cells: endocrine, _______, and ______ cells",Parietal and Gastric,Chief and Gastric,None of these,Chief and Parietal,,,D,,
-ANAT9240,Anatomy & Physiology,T,The chief cells secrete,Mucus,Hydrochloric Acid,Intrinsic Factor,Enzymes of Gastric Juice,,,D,,
-ANAT9240,Anatomy & Physiology,T,The uppermost division of the small intestine is the,Ileum,Duodenum,Jejunum,Colon,,,B,,39 - Lower Digestive Tract
-ANAT9240,Anatomy & Physiology,T,Which division of the small intestine is the longest?,Cecum,Duodenum,Ileum,Jejunum,,,C,,
-ANAT9240,Anatomy & Physiology,T,The intestinal lining has circular folds that contain many tiny projections called,Cilia,Villi,Flagella,Gastric Pits,,,B,,
-ANAT9240,Anatomy & Physiology,T,"In the valleys between villi are deep depressions called _____, which serve as sites of rapid mitotic cell division",Tuft Cells,Lacteals,Intestinal Crypts,Paneth Cells,,,C,,
-ANAT9240,Anatomy & Physiology,T,The large intestine is divided into the,"Cecum, Colon, and Anus","Colon, Rectum, and Anus","Cecum, Ileum, and Rectum","Cecum, Colon, and Rectum",,,D,,
-ANAT9240,Anatomy & Physiology,T,The four portions of the colon are the,"Ascending colon, descending colon, sigmoid colon, and rectum","Ascending colon, descending colon, sigmoid colon, and cecum","Ascending colon, transverse colon, descending colon, and rectum","Ascending colon, transverse colon, descending colon, and sigmoid colon",,,D,,
-ANAT9240,Anatomy & Physiology,T,The structure that permits material to pass from the ileum into the large intestine is the,Ileocecal Valve,Cardiac Sphincter,Sigmoid Colon,Anal Canal,,,A,,
-ANAT9240,Anatomy & Physiology,T,The longitudinal muscles within the large intestinal wall are grouped together into tape-like strips about a centimeter wide called,Haustra,Villi,Teniae Coli,Plicae,,,C,,
-ANAT9240,Anatomy & Physiology,T,The terminal inch of the rectum is called the,Sigmoid Canal,Anal Canal,Rectal Folds,Rectal Valve,,,B,,
-ANAT9240,Anatomy & Physiology,T,A fan-shaped projection of the parietal peritoneum is called the,Intestinal Flora,Transverse Mesocolon,Mesentery,Visceral Peritoneum,,,C,,
-ANAT9240,Anatomy & Physiology,T,The largest gland in the body is the,Gallbladder,Stomach,Liver,Pancreas,,,C,,
-ANAT9240,Anatomy & Physiology,T,"The hepatic duct merges with the cystic duct from the gallbladder, forming the _____ duct",Common Cystic,None of these,Common Bile,Common Hepatic,,,C,,
-ANAT9240,Anatomy & Physiology,T,The main components of bile include all of the following except,Bile Salts,Vitamins,Bile Pigments,Cholesterol,,,B,,
-ANAT9240,Anatomy & Physiology,T,The function of the gallbladder is to,Store Lipids,Absorb Bile,Store Bile,Store Proteins,,,C,,
-ANAT9240,Anatomy & Physiology,T,The organ that is composed of both endocrine and exocrine tissue is the,Small Intestine,Pancreas,Gallbladder,Liver,,,B,,
-ANAT9240,Anatomy & Physiology,T,The main components of bile are,"Bile Salts, Bile Pigments, and Cholesterol","Bile Pigments, Water, and Cholesterol","Water, Cholesterol, and Bile Salts","Bile Salts, Bile Pigments, and Water",,,A,,
-ANAT9240,Anatomy & Physiology,T,Chemical digestion requires the secretion of _____ into the lumen of the GI tract,Digestive Enzymes & Bile,Chyme,Bile,Digestive Enzymes,,,A,,40 - Digestion & Absorption
-ANAT9240,Anatomy & Physiology,T,The process of deglutition includes all of the following except the _____ stage,Oral,Pharyngeal,Laryngeal,Esophageal,,,C,,
-ANAT9240,Anatomy & Physiology,T,The wave-like ripple of the muscle layer of the GI tract is called,Deglutition,Segmentation,Mastication,Peristalsis,,,D,,
-ANAT9240,Anatomy & Physiology,T,Fats and other nutrients in the duodenum stimulate the intestinal mucosa to release a hormone called,Gastrin,Lecithin,Gastric Inhibitory Peptide,Aldosterone,,,B,,
-ANAT9240,Anatomy & Physiology,T,Peristalsis is regulated in part by the intrinsic stretch reflexes. It is also thought to be stimulated by the hormone,Glucagon,Gastrin,Cholecystokinin (CCK),Secretin,,,C,,
-ANAT9240,Anatomy & Physiology,T,The chemical process in which a compound unites with water and then splits into simpler compounds is called,Emulsification,Dehydration Synthesis,Hydrolysis,None of these,,,C,,
-ANAT9240,Anatomy & Physiology,T,"Because fats are insoluble in water, they must be",Catalyzed,Secreted before they enter the small intestine,Emulsified,Absorbed in the stomach,,,C,,
-ANAT9240,Anatomy & Physiology,T,Saliva contains the enzyme,Trypsin,Amylase,Pepsin,Lipase,,,B,,
-ANAT9240,Anatomy & Physiology,T,Stimulation of gastric juice secretion occurs in all of the following phases except the _____ phase,Digestive,Gastric,Cephalic,Intestinal,,,,,
-ANAT9240,Anatomy & Physiology,T,,,,,,,,,,
-ANAT9240,Anatomy & Physiology,T,,,,,,,,,,
-ANAT9240,Anatomy & Physiology,T,,,,,,,,,,
-ANAT9240,Anatomy & Physiology,T,,,,,,,,,,
-ANAT9240,Anatomy & Physiology,T,,,,,,,,,,
-ANAT9240,Anatomy & Physiology,T,,,,,,,,,,
+ANAT9240,Anatomy & Physiology,P,The formal name of the canal that makes up the digestive system,,,,,,,Alimentary Canal,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Circular folds in the small intestine,,,,,,,Plicae,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Structures of various size and shape that hold tastebuds,,,,,,,Papillae,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The hormone that causes release of bile (hint: acronym is 'CCK'),,,,,,,Cholecystokinin,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,Class of medication used to lower blood cholesterol,,,,,,,Statin,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,Pancreatic cell type responsible for secreting pancreatic juices,,,,,,,Acinar Cell,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The type of rectal sphincter valves that are under voluntary control,,,,,,,External Rectal Sphincter Valves,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The folds of the peritoneum that cover the intestines,,,,,,,Mesentery,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The bile duct that combines with the cystic (gallbladder) and hepatic (liver) ducts,,,,,,,Common Bile Duct,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The formal term given to the layer of the GI tract containing layers of smooth muscle tissue,,,,,,,Muscularis,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The inner most layer of tissue in the GI tract,,,,,,,Mucosa,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,These allow the stomach to expand to accommodate a large meal,,,,,,,Rugae,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The functional unit of the liver,,,,,,,Lobule,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,"The layer of the GI tract that contains glands, blood vessels, and nerves",,,,,,,Submucosa,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Bulges or pockets found in the large intestine,,,,,,,Haustra,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The energy required to digest food (hint: acronym is 'TEF'),,,,,,,Thermic Effect of Food,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,Fluid stored in the gallbladder,,,,,,,Bile,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The name for an enzyme that breaks down some carbohydrates,,,,,,,Amylase,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The term given to describe the region of the stomach that connects with the esophagus,,,,,,,Cardia,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Additional sacs or outcroppings found in the large intestine,,,,,,,Diverticulosis,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The hormone released by adipose tissue that indicates the level of body fat in an individual,,,,,,,Leptin,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The 'roof' of the stomach,,,,,,,Fundus,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The salivary gland that sits directly below the tongue,,,,,,,Sublingual Gland,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Describes what bile salts do to lipids and fats during digestion,,,,,,,Emulsify,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The system that is found linking the intestines and liver so that the liver can process absorbed nutrients before they go into general circulation,,,,,,,Portal System,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The cell type in a salivary gland that produces a watery solution,,,,,,,Serous Cell,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The cell type that produces hormones such as ghrelin within gastric glands,,,,,,,Endocrine Cell,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The 'middle' of a tooth - Harder than the inner core but softer than the outermost layer,,,,,,,Dentin,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The hormone responsible for increasing bile production in the liver,,,,,,,Secretin,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The formal term for the back of the tongue,,,,,,,Root,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The section of the large intestine that moves left to right across the abdomen,,,,,,,Transverse Colon,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The cell type that produces hydrochloric acid in gastric glands,,,,,,,Parietal Cell,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The pancreatic cell type responsible for secreting insulin,,,,,,,Beta Cell,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Type 1 diabetics are said to be insulin __________,,,,,,,Insulin Dependent,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The soft tissue of teeth containing blood vessels and nerves,,,,,,,Pulp,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The forward movement of material through the digestive tract,,,,,,,Peristalsis,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The liver and the pancreas are considered these types of organs in the digestive system,,,,,,,Accessory Organs,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Structures found on each individual cell that lines the surface of the small intestine,,,,,,,Microvilli,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The lamina propria is this type of tissue,,,,,,,Connective Tissue,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,A type of protease found in the digestive tract,,,,,,,Trypsin,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The formal term for stomach contents mixed with gastric juices,,,,,,,Chyme,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The formal term for swallowed food,,,,,,,Bolus,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,An open sore in the digestive tract,,,,,,,Ulcer,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Paneth and stem cells are found in these intestinal structures,,,,,,,Intestinal Crypts,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The first section of the large intestine,,,,,,,Ascending Colon,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Solid deposits of bile salts in the gallbladder,,,,,,,Gallstones,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The terminal section of the small intestine,,,,,,,Ileum,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Mixing by moving material back and forth in the intestines,,,,,,,Segmentation,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,Describing the three main vessels that feed the hepatic lobules,,,,,,,Triad,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The general amount of energy used in a normal resting person throughout the day (hint: acronym is 'BMR'),,,,,,,Basal Metabolic Rate,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The superior most section of the esophagus,,,,,,,Cervical Esophagus,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The salivary gland that produces saliva with enzymes but no mucous and sits closest to the ear,,,,,,,Parotid Gland,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The region of the stomach that connects with the small intestine,,,,,,,Pylorus,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The pancreatic cell type responsible for secreting glucagon,,,,,,,Alpha Cell,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The cell type that produces pepsinogen in gastric glands,,,,,,,Chief Cell,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The term given to the circular muscles of the stomach that serve as valves,,,,,,,Sphincter,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The lingual webbing of tissue that keeps the tongue anchored to the floor of the mouth,,,,,,,Lingual Frenulum,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,A phospholipid that helps to make fats soluble,,,,,,,Lecithin,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,Type 2 diabetics are said to be insulin ________,,,,,,,Insulin Resistant,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The section of the tooth that is visible when you smile,,,,,,,Crown,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The outermost layer of the GI tract - Technically part of the peritoneum,,,,,,,Serosa,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Which of the following is not a major function of the stomach?,Food reservoir,Production of intrinsic factor,Churning of food,Absorption of nutrients,Secretion of gastric juices,,D,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,What is the role of the ileocecal valve?,Controls the passage of food from the esophagus to the stomach,Regulates the flow of chyme from the stomach to the duodenum,Prevents backflow from the cecum into the ileum,Separates the small intestine from the stomach,,,C,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,"The intrinsic factor, produced by the stomach, is essential for the absorption of:",Vitamin C,Vitamin D,Vitamin B12,Iron,,,C,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Which of the following glands produce a watery saliva containing enzymes but no mucus?,Sublingual glands,Submandibular glands,Parotid glands,Buccal glands,Lingual glands,,C,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The main function of the rugae in the stomach is to:,Secrete digestive enzymes,Increase surface area for absorption,Allow the stomach to expand,Protect the stomach lining,,,C,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,What are the tiny projections on the intestinal lining that increase surface area for absorption called?,Rugae,Villi,Plicae,Microvilli,,,B,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Which of the following is not a division of the small intestine?,Duodenum,Jejunum,Ileum,Cecum,,,D,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The digestive enzymes of the pancreas are secreted by:,Alpha Cells,Beta Cells,Acinar Cells,Goblet Cells,,,C,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The folds of the serous membrane that connect the parietal and visceral portions of the peritoneum are called:,Mesentery,Omentum,Peritoneum,Serosa,,,A,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The muscularis layer of the GI tract is responsible for:,Secretion,Absorption,Protection,Movement,,,D,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The liver secretes bile into which part of the digestive system?,Stomach,Jejunum,Duodenum,Ileum,,,C,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Which of the following correctly describes the function of the pyloric sphincter?,Prevents the backflow of food into the esophagus,Regulates the passage of chyme from the stomach to the duodenum,Controls the entry of bile into the small intestine,Separates the large intestine from the small intestine,,,B,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Which of the following correctly describes the composition of bile?,"Enzymes, mucus, and electrolytes","Bile salts, bile pigments, and cholesterol","Water, vitamins, and proteins","Hormones, enzymes, and minerals",,,B,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The primary role of parietal cells in the stomach is to:,Secrete pepsinogen,Secrete mucus to protect the stomach lining,Produce hydrochloric acid and intrinsic factor,Release digestive hormones like gastrin and ghrelin,,,C,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Which component of saliva is responsible for beginning the digestion of carbohydrates?,Lysozyme,Mucus,Amylase,Lipase,,,C,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The circular folds (plicae circulares) of the small intestine primarily serve to:,Increase surface area for absorption,Facilitate the movement of chyme,Secrete digestive enzymes,Protect the intestinal lining from pathogens,,,A,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,Bile salts are formed in the liver from phospholipids,TRUE,FALSE,,,,,B,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,The pancreas has both endocrine and exocrine functions,TRUE,FALSE,,,,,A,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The primary function of the large intestine is nutrient absorption,TRUE,FALSE,,,,,B,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,P,The small intestine has a larger surface area than the large intestine due to the presence of villi and microvilli,TRUE,FALSE,,,,,A,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Sphincter muscles consist of circular fibers arranged so that there is an opening in the center when relaxed and no opening when contracted,TRUE,FALSE,,,,,A,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,P,Disaccharides bind onto the enzymes at the surface of the brush border of the intestine,TRUE,FALSE,,,,,A,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,The process of altering the chemical and physical composition of food so that it can be absorbed and used by the body cells is known as,Excretion,Circulation,Absorption,Digestion,,,D,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The innermost layer of the GI wall is called the,Muscularis,Mucosa,Submucosa,Serosa,,,B,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The _____ consists of portions of two maxillae bones and two palatine bones,Hard Palate,Philtrum,Oral Fissure,Soft Palate,,,A,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The dorsal surface of the tongue is covered with rough elevated projections called,Papillae,Philtra,Lingual Frenula,Tubercles,,,A,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,All of the following are pairs of salivary glands except the,Submandibulars,Sublinguals,Parotids,Submucosa,,,D,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,Which salivary gland produces only a mucous type of saliva?,Submandibular,Parotid,All of these,Sublingual,,,D,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,"Which type of dental tissue is a soft, fibrous connective tissue with blood vessels and nerves at the core of each tooth?",Pulp,Enamel,Dentin,Cementum,,,A,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,"Early in life, 20 deciduous teeth appear. Later these are replaced by _____ permanent teeth",13,32,30,23,,,B,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The rounded mass of food that travels from the mouth to the stomach is called a,Chyme,Feces,Fundus,Bolus,,,D,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The _____ is a collapsible tube that extends from the pharynx to the stomach,Fundus,Esophagus,Trachea,Pylorus,,,B,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,Which layer of the stomach contains an epithelial lining that is arranged into folds called rugae?,Serosa,Fundus,Mucosa,Muscularis,,,C,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The sphincter muscle that controls the opening of the esophagus into the stomach is the _____ sphincter,Fundus,Anal,Pyloric,Cardiac,,,D,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,"The epithelial lining of the stomach is thrown into folds, which are called",Rugae,Gastric Glands,Gastric Pits,Submucosa,,,A,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,"Gastric glands contain three major secretory cells: endocrine, _______, and ______ cells",Parietal and Gastric,Chief and Gastric,None of these,Chief and Parietal,,,D,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The chief cells secrete,Mucus,Hydrochloric Acid,Intrinsic Factor,Enzymes of Gastric Juice,,,D,Anatomy & Physiology,38 - Upper Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The uppermost division of the small intestine is the,Ileum,Duodenum,Jejunum,Colon,,,B,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,Which division of the small intestine is the longest?,Cecum,Duodenum,Ileum,Jejunum,,,C,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The intestinal lining has circular folds that contain many tiny projections called,Cilia,Villi,Flagella,Gastric Pits,,,B,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,"In the valleys between villi are deep depressions called _____, which serve as sites of rapid mitotic cell division",Tuft Cells,Lacteals,Intestinal Crypts,Paneth Cells,,,C,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The large intestine is divided into the,"Cecum, Colon, and Anus","Colon, Rectum, and Anus","Cecum, Ileum, and Rectum","Cecum, Colon, and Rectum",,,D,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The four portions of the colon are the,"Ascending colon, descending colon, sigmoid colon, and rectum","Ascending colon, descending colon, sigmoid colon, and cecum","Ascending colon, transverse colon, descending colon, and rectum","Ascending colon, transverse colon, descending colon, and sigmoid colon",,,D,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The structure that permits material to pass from the ileum into the large intestine is the,Ileocecal Valve,Cardiac Sphincter,Sigmoid Colon,Anal Canal,,,A,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The longitudinal muscles within the large intestinal wall are grouped together into tape-like strips about a centimeter wide called,Haustra,Villi,Teniae Coli,Plicae,,,C,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The terminal inch of the rectum is called the,Sigmoid Canal,Anal Canal,Rectal Folds,Rectal Valve,,,B,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,A fan-shaped projection of the parietal peritoneum is called the,Intestinal Flora,Transverse Mesocolon,Mesentery,Visceral Peritoneum,,,C,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The largest gland in the body is the,Gallbladder,Stomach,Liver,Pancreas,,,C,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,"The hepatic duct merges with the cystic duct from the gallbladder, forming the _____ duct",Common Cystic,None of these,Common Bile,Common Hepatic,,,C,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The main components of bile include all of the following except,Bile Salts,Vitamins,Bile Pigments,Cholesterol,,,B,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The function of the gallbladder is to,Store Lipids,Absorb Bile,Store Bile,Store Proteins,,,C,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The organ that is composed of both endocrine and exocrine tissue is the,Small Intestine,Pancreas,Gallbladder,Liver,,,B,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,The main components of bile are,"Bile Salts, Bile Pigments, and Cholesterol","Bile Pigments, Water, and Cholesterol","Water, Cholesterol, and Bile Salts","Bile Salts, Bile Pigments, and Water",,,A,Anatomy & Physiology,39 - Lower Digestive Tract
+ANAT9240,Anatomy & Physiology,T,Chemical digestion requires the secretion of _____ into the lumen of the GI tract,Digestive Enzymes & Bile,Chyme,Bile,Digestive Enzymes,,,A,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,The process of deglutition includes all of the following except the _____ stage,Oral,Pharyngeal,Laryngeal,Esophageal,,,C,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,The wave-like ripple of the muscle layer of the GI tract is called,Deglutition,Segmentation,Mastication,Peristalsis,,,D,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,Fats and other nutrients in the duodenum stimulate the intestinal mucosa to release a hormone called,Gastrin,Lecithin,Gastric Inhibitory Peptide,Aldosterone,,,B,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,Peristalsis is regulated in part by the intrinsic stretch reflexes. It is also thought to be stimulated by the hormone,Glucagon,Gastrin,Cholecystokinin (CCK),Secretin,,,C,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,The chemical process in which a compound unites with water and then splits into simpler compounds is called,Emulsification,Dehydration Synthesis,Hydrolysis,None of these,,,C,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,"Because fats are insoluble in water, they must be",Catalyzed,Secreted before they enter the small intestine,Emulsified,Absorbed in the stomach,,,C,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,Saliva contains the enzyme,Trypsin,Amylase,Pepsin,Lipase,,,B,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,Stimulation of gastric juice secretion occurs in all of the following phases except the _____ phase,Digestive,Gastric,Cephalic,Intestinal,,,A,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,The ejection of bile from the gallbladder is controlled by which hormones?,Secretin & GIP,CCK & GIP,CCK & Secretin,Gastrin & CCK,,,C,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,The final step in lipid transport by the intestines is the formation of,Micelles,Chylomicrons,Sodium Bicarbonate,Bile,,,B,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,"Pepsinogen is converted to pepsin by hydrochloric acid, which is produced by the _____ of the gastric glands",Tuft Cells,Rugae,Chief Cells,Parietal Cells,,,D,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,CCK is an intestinal hormone that,Opposes the influence of gastrin on gastric parietal cells,Causes the pancreas to increase secretion of exocrine high in enzymatic content,All of these,Stimulates contraction of the gallbladder so that bile can pass into the duodenum,,,C,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,_____ is the passage of substances through the intestinal mucosa into the blood or lymph,Elimination,Absorption,Secretion,Ingestion,,,B,Anatomy & Physiology,40 - Digestion & Absorption
+ANAT9240,Anatomy & Physiology,T,The act of expelling feces is called,Elimination,Excretion,Rehydration,Defecation,,,D,Anatomy & Physiology,40 - Digestion & Absorption
 PSYC9210,Lifespan Development,AI,Which characteristic describes lifespan development?,Lifelong,Unidirectional,Purely biological,Fixed after adolescence,,,A,Developmental Psychology: A Canadian Perspective,1 - Introduction to Lifespan Development
 PSYC9210,Lifespan Development,AI,Development is multidimensional because it includes:,Only biological changes,"Biological, cognitive, and socioemotional processes",Only cognitive changes,Only social changes,,,B,Developmental Psychology: A Canadian Perspective,1 - Introduction to Lifespan Development
 PSYC9210,Lifespan Development,AI,Which term describes the capacity for change throughout life?,Plasticity,Stability,Maturation,Fixity,,,A,Developmental Psychology: A Canadian Perspective,1 - Introduction to Lifespan Development
