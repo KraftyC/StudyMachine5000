@@ -1,7 +1,7 @@
 export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Chapter1, Chapter2, ... ] }}}
   ANAT9240: {
     "Test #3": {
-      "Anatomy & Physiology": [ "35 - Respiratory Tract", "36 - Ventilation", "37 - Gas Exchange & Transport", "38 - Upper Digestive Tract", "39 - Lower Digestive Tract", "40 - Digestion & Absorption" ]
+      "Anatomy & Physiology": [ "35 - Respiratory Tract", "36 - Ventilation", "37 - Gas Exchange & Transport", "38 - Upper Digestive Tract", "39 - Lower Digestive Tract", "40 - Digestion & Absorption", "42 - Urinary System", "43 - Fluid & Electrolyte Balance", "44 - Acid-Base Balance" ]
     }
   },
   PSYC9210: {
