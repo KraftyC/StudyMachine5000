@@ -1,7 +1,7 @@
 export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Chapter1, Chapter2, ... ] }}}
   ANAT9240: {
-    "Test #3": {
-      "Anatomy & Physiology": [ "35 - Respiratory Tract", "36 - Ventilation", "37 - Gas Exchange & Transport", "38 - Upper Digestive Tract", "39 - Lower Digestive Tract", "40 - Digestion & Absorption", "42 - Urinary System", "43 - Fluid & Electrolyte Balance", "44 - Acid-Base Balance" ]
+    "All Chapters (Final Exam)": {
+      "Anatomy & Physiology": [ "10 - Skin", "11 - Skeletal Tissues", "12 - Axial Skeleton", "13 - Appendicular Skeleton", "14 - Articulations", "15 - Axial Muscles", "16 - Appendicular Muscles", "17 - Muscle Contraction", "27 - Blood", "28 - Heart", "29 - Blood Vessels", "30 - Circulation of Blood", "18 - Nervous System Cells", "19 - Nerve Signaling", "20 - Central Nervous System", "21 - Peripheral Nervous System", "22 - Autonomic Nervous System", "23 - General Senses", "24 - Special Senses", "35 - Respiratory Tract", "36 - Ventilation", "37 - Gas Exchange & Transport", "38 - Upper Digestive Tract", "39 - Lower Digestive Tract", "40 - Digestion & Absorption", "42 - Urinary System", "43 - Fluid & Electrolyte Balance", "44 - Acid-Base Balance", "45 - Male Reproductive System", "46 - Female Reproductive System", "31 - Lymphatic System", "32 - Innate Immunity", "33 - Adaptive Immunity", "25 - Endocrine Regulation", "26 - Endocrine Glands" ]
     }
   },
   PSYC9210: {
