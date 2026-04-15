@@ -5,8 +5,8 @@ export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Cha
     }
   },
   PSYC9210: {
-    "Midterm Exam": { 
-      "Developmental Psychology: A Canadian Perspective": [ "1 - Introduction to Lifespan Development", "2 - Heredity, Prenatal Development, and Birth", "3 - Infancy and Toddlerhood", "4 - Early Childhood" ] 
+    "Final Exam": { 
+      "Developmental Psychology: A Canadian Perspective": [ "5 - Middle & Late Childhood", "6 - Adolescence", "7 - Emerging & Early Adulthood", "8 & 9 - Middle & Late Adulthood", "10 - Death & Dying" ] 
     } 
   },
   BSCN9200: {
