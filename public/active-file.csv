@@ -1332,7 +1332,7 @@ ANAT9240,Anatomy & Physiology,P,The fluid of the lymphatic system,,,,,,,Lymph,An
 ANAT9240,Anatomy & Physiology,P,"The cells that keep particles of a pathogen to ""show"" or ""report"" to T cells (acronym: APC)",,,,,,,Antigen Presenting Cells,Anatomy & Physiology,33 - Adaptive Immunity
 ANAT9240,Anatomy & Physiology,P,The fluid that sits between cells outside of the capillaries,,,,,,,Interstitial Fluid,Anatomy & Physiology,31 - Lymphatic System
 ANAT9240,Anatomy & Physiology,P,The acronym for the major antibody produced after initial infection,,,,,,,IgM,Anatomy & Physiology,33 - Adaptive Immunity
-ANAT9240,Anatomy & Physiology,P,The formal termfor the buildup of fluid that is not drained by the lymphatic system,,,,,,,Edema,Anatomy & Physiology,31 - Lymphatic System
+ANAT9240,Anatomy & Physiology,P,The formal term for the buildup of fluid that is not drained by the lymphatic system,,,,,,,Edema,Anatomy & Physiology,31 - Lymphatic System
 ANAT9240,Anatomy & Physiology,P,The term for the immunity that is caused by antibodies and B cells,,,,,,,Humoral Immunity,Anatomy & Physiology,33 - Adaptive Immunity
 ANAT9240,Anatomy & Physiology,P,The signaling molecule that regulates blood supply and capillary permeability (and is often the target of anti-allergy medications),,,,,,,Histamine,Anatomy & Physiology,32 - Innate Immunity
 ANAT9240,Anatomy & Physiology,P,The term for the part of a protein that antibodies bind to,,,,,,,Epitope,Anatomy & Physiology,33 - Adaptive Immunity
@@ -1347,13 +1347,13 @@ ANAT9240,Anatomy & Physiology,P,The fluid found in the lacteals,,,,,,,Chyle,Anat
 ANAT9240,Anatomy & Physiology,P,A group of proteins that the innate immune response that can target bacterial cells,,,,,,,Complement Proteins,Anatomy & Physiology,33 - Adaptive Immunity
 ANAT9240,Anatomy & Physiology,P,The B cells that produce antibodies,,,,,,,Plasma B Cells,Anatomy & Physiology,33 - Adaptive Immunity
 ANAT9240,Anatomy & Physiology,P,The T cells that target and destroy infected cells,,,,,,,Cytotoxic T Cells,Anatomy & Physiology,33 - Adaptive Immunity
-ANAT9240,Anatomy & Physiology,P,The patches of lymphatic tissue that are positioned along the intestine,,,,,,,Payers Patches,Anatomy & Physiology,31 - Lymphatic System
+ANAT9240,Anatomy & Physiology,P,The patches of lymphatic tissue that are positioned along the intestine,,,,,,,Peyers Patches,Anatomy & Physiology,31 - Lymphatic System
 ANAT9240,Anatomy & Physiology,P,An organism that causes illness or infection,,,,,,,Pathogen,Anatomy & Physiology,33 - Adaptive Immunity
 ANAT9240,Anatomy & Physiology,P,The type of immunity caused by T cells,,,,,,,Cellular Immunity,Anatomy & Physiology,33 - Adaptive Immunity
 ANAT9240,Anatomy & Physiology,P,The dominant vessel type for a lymph node,,,,,,,Afferent Vessel,Anatomy & Physiology,31 - Lymphatic System
 ANAT9240,Anatomy & Physiology,P,NK and T cell proteins that put holes in cells,,,,,,,Perforin,Anatomy & Physiology,33 - Adaptive Immunity
 ANAT9240,Anatomy & Physiology,P,"The indentation on a lymph node, similar to what is seen on the kidney",,,,,,,Hilum,Anatomy & Physiology,31 - Lymphatic System
-ANAT9240,Anatomy & Physiology,P,The tonsils that sit near the posterior opening of the nasal cavity,,,,,,,Pharangeal Tonsils,Anatomy & Physiology,31 - Lymphatic System
+ANAT9240,Anatomy & Physiology,P,The tonsils that sit near the posterior opening of the nasal cavity,,,,,,,Pharyngeal Tonsils,Anatomy & Physiology,31 - Lymphatic System
 ANAT9240,Anatomy & Physiology,P,"Antibodies have two ""heavy"" and two ""light"" lengths of peptide known as this",,,,,,,Chains,Anatomy & Physiology,33 - Adaptive Immunity
 ANAT9240,Anatomy & Physiology,P,"While not an action of the body, this activity can assist the movement of lymph (and is very relaxing)",,,,,,,Massage,Anatomy & Physiology,31 - Lymphatic System
 ANAT9240,Anatomy & Physiology,P,The process where antibodies cover the surface of an antigen to prevent infection,,,,,,,Neutralization,Anatomy & Physiology,33 - Adaptive Immunity
@@ -2448,7 +2448,7 @@ BSCN9200,Family Health,T,Goal of care for HIV infection:,Speed viral growth,Prev
 BSCN9200,Family Health,T,Medication that must be available during immunizations:,Epinephrine,Amoxicillin,Mucomyst,Ativan,,,A,Leifer's Introduction to Maternity & Pediatric Nursing,32 - Childhood Communicable Diseases
 BSCN9200,Family Health,T,"Circular, elevated, fluid‑filled skin lesion is a:",Wart,Cyst,Plaque,Vesicle,,,D,Leifer's Introduction to Maternity & Pediatric Nursing,32 - Childhood Communicable Diseases
 BSCN9200,Family Health,T,Airborne precautions require which actions?,Wear respiratory mask,Wear gown,Use negative pressure room,Use gloves for BP measurement,,,A|C,Leifer's Introduction to Maternity & Pediatric Nursing,32 - Childhood Communicable Diseases
-BSCN9200,Family Health,T,The prodromal period is the time between pathogen invasion and onset of symptoms.,TRUE,FALSE,,, ,,B,Leifer's Introduction to Maternity & Pediatric Nursing,32 - Childhood Communicable Diseases
+BSCN9200,Family Health,T,The prodromal period is the time between pathogen invasion and onset of symptoms.,TRUE,FALSE,,,,,B,Leifer's Introduction to Maternity & Pediatric Nursing,32 - Childhood Communicable Diseases
 BSCN9200,Family Health,T,What is the first step in addressing illnesses with significant emotional or behavioural symptoms?,Health Promotion,Harm Reduction,Establishing the Treatment Team,Ensuring Family Engagement,,,A,Leifer's Introduction to Maternity & Pediatric Nursing,33 - The Child with an Emotional or Behavioural Condition
 BSCN9200,Family Health,T,When would a nurse initiate a discussion about available treatment with a child and family who are displaying emotional or behavioural symptoms of a mental health disorder?,At the parents’ request,When a referral is made by the teacher,At the next scheduled appointment,When there is impairment in daily functioning,,,D,Leifer's Introduction to Maternity & Pediatric Nursing,33 - The Child with an Emotional or Behavioural Condition
 BSCN9200,Family Health,T,Which individual has the highest risk factors for dying by suicide?,A 13-year-old male who plays video war games,An 8-year-old girl who reports thinking about death,A 16-year-old girl who recently broke up with her significant other,A 9-year-old boy who has previously tried to hang himself,,,D,Leifer's Introduction to Maternity & Pediatric Nursing,33 - The Child with an Emotional or Behavioural Condition
