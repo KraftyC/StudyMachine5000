@@ -22,3 +22,5 @@ export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Cha
     } 
   }
 }
+
+export const STORAGE_KEY = "SM_Blacklist";

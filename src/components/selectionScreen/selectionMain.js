@@ -5,22 +5,26 @@ import SelectCourse from "./selectCourse";
 import SelectChapters from "./selectChapters";
 import SelectOrigin from "./selectOrigin";
 import SelectCount from "./selectCount";
+import SelectBlacklistQuestions from "./selectBlacklistQuestions";
 import { Button, Row } from "react-bootstrap";
 
-export default function SelectionMain({ setIsSelected }) {
+export default function SelectionMain({ setIsSelected, isEditBlacklist }) {
   const qCtx = useContext(QContext);
 
   return (<>
-    <SelectCourse />
-    {qCtx.selection.courseCode && <SelectChapters />}
-    {qCtx.selection.chapters.length > 0 && <SelectMode />}
-    {qCtx.selection.mode && <SelectOrigin />}
-    {qCtx.selection.origins.length > 0 && <SelectCount />}
-    {qCtx.selection.quantity > 0 && (
-      <Row className="justify-content-center">
-        <Button onClick={() => setIsSelected(true)} variant="success" className="w-50">Start!</Button>
-      </Row>
-    )}
+    <SelectCourse isEditBlacklist={isEditBlacklist} />
+    {qCtx.selection.courseCode && <SelectChapters isEditBlacklist={isEditBlacklist} />}
+    {!isEditBlacklist && <>
+      {qCtx.selection.chapters.length > 0 && <SelectMode />}
+      {qCtx.selection.mode && <SelectOrigin />}
+      {qCtx.selection.origins.length > 0 && <SelectCount />}
+      {qCtx.selection.quantity > 0 && (
+        <Row className="justify-content-center">
+          <Button onClick={() => { setIsSelected(true); }} variant="success" className="w-50">Start!</Button>
+        </Row>
+      )}
+    </>}
+    {isEditBlacklist && qCtx.selection.chapters.length > 0 && <SelectBlacklistQuestions />}
     <div style={{ height: "50px" }}></div>
   </>);
 }

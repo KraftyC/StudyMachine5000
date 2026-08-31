@@ -10,13 +10,14 @@ import CipherMain from "./components/cipherScreen/cipherMain";
 export default function App() {
   const qCtx = useContext(QContext);
   const [isSelected, setIsSelected] = useState(false);
+  const [isEditBlacklist, setIsEditBlacklist] = useState(false);
 
   return (
     <div className="text-white">
-      <Header />
+      <Header isSelected={isSelected} isEditBlacklist={isEditBlacklist} setIsEditBlacklist={setIsEditBlacklist} />
       <Container style={{ maxWidth: "768px" }}>
         <div className="px-3">
-          {(Object.values(qCtx.selection).includes(null) || !isSelected) && <SelectionMain setIsSelected={setIsSelected} />}
+          {(Object.values(qCtx.selection).includes(null) || !isSelected) && <SelectionMain setIsSelected={setIsSelected} isEditBlacklist={isEditBlacklist} setIsEditBlacklist={setIsEditBlacklist} />}
           {(!Object.values(qCtx.selection).includes(null) && isSelected && qCtx.selection.mode === "Cipher") && <CipherMain />}
           {(!Object.values(qCtx.selection).includes(null) && isSelected && qCtx.selection.mode === "Flashcards") && <FlashMain />}
           {(!Object.values(qCtx.selection).includes(null) && isSelected && qCtx.selection.mode === "Multiple Choice") && <QuizMain />}

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Button, Col, Row } from "react-bootstrap";
+import ConfirmBlacklistModal from "../shared/confirmBlacklistModal";
 // import CipherQuestionModal from "./cipherQuestionModal";
 
 const styles = {
@@ -21,10 +22,8 @@ export default function CipherQuestion({ question, onNext }) {
   const [hints, setHints] = useState({ max: 0, used: 0 });
   const [isCorrect, setIsCorrect] = useState(null);
   const [isFinished, setIsFinished] = useState(false);
-  // const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   const allFilled = letters.length > 0 && letters.every(l => l.letter === " " || l.revealed || l.user.trim() !== "");
-
-
 
   useEffect(() => {
     const clean = question.Answer.replace(/ /g, "");
@@ -122,13 +121,6 @@ export default function CipherQuestion({ question, onNext }) {
     setHints(p => ({ ...p, used: p.used + 1 }));
   }
 
-  // function giveUpHandler() {
-  //   setLetters(p => p.map(l => ({ ...l, revealed: true })));
-  //   setIsCorrect(false);
-  //   setIsFinished(true);
-  //   setShowModal(false);
-  // }
-
   function checkAnswer() {
     const correct = letters.every(l => l.letter === " " || l.revealed || l.user.toUpperCase() === l.letter);
     setIsCorrect(correct);
@@ -161,11 +153,24 @@ export default function CipherQuestion({ question, onNext }) {
       <Col><Button onClick={showHintHandler} disabled={hints.used >= hints.max} variant="primary" className="w-100">Hints {hints.used}/{hints.max}</Button></Col>
       <Col>{allFilled && <Button onClick={checkAnswer} variant="success" className="w-100">Submit</Button>}</Col>
     </Row>}
-    {isFinished && <div className="d-flex justify-content-end">
-      <Button onClick={() => onNext(isCorrect)} variant="primary" className="fw-bold text-center p-3 mt-4 w-50">
-        Next
-      </Button>
-    </div>}
+    {isFinished && <Row>
+      <Col xs={6}>
+        <Button onClick={() => setShowModal(true)} variant="outline-warning" className="fw-bold text-center p-3 mt-4 w-100">
+          Blacklist & Next
+        </Button>
+      </Col>
+      <Col xs={6}>
+        <Button onClick={() => onNext(isCorrect)} variant="primary" className="fw-bold text-center p-3 mt-4 w-100">
+          Next
+        </Button>
+      </Col>
+    </Row>}
+    <ConfirmBlacklistModal
+      show={showModal}
+      onHide={() => setShowModal(false)}
+      onSave={() => { setShowModal(false); onNext(isCorrect); }}
+      question={question}
+    />
   </>);
 }
 

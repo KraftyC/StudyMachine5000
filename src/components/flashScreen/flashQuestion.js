@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 import ReactFlipCard from "reactjs-flip-card";
+import ConfirmBlacklistModal from "../shared/confirmBlacklistModal";
 
 const cardStyle = {
   container: { width: "100%", minHeight: "300px" },
@@ -8,8 +9,9 @@ const cardStyle = {
   cardCss: "p-3 text-center bg-dark"
 }
 
-export default function FlashQuestion({ question, answer, onFlip, onNext, cardFlipped }) {
+export default function FlashQuestion({ question, onFlip, onNext, cardFlipped }) {
   const [isCardFlipped, setIsCardFlipped] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   function cardFlipHandler() {
     setIsCardFlipped(p => !p);
@@ -23,22 +25,35 @@ export default function FlashQuestion({ question, answer, onFlip, onNext, cardFl
 
   return (<>
     <ReactFlipCard 
-        frontComponent={<div className="fw-bold fs-5">{question}</div>}
-        backComponent={<div>{answer}</div>}
-        onClick={cardFlipHandler}
-        flipTrigger="disabled"
-        flipByProp={isCardFlipped}
-        direction="vertical"
-        containerStyle={cardStyle.container}
-        frontCss={cardStyle.cardCss}
-        frontStyle={cardStyle.card}
-        backCss={cardStyle.cardCss}
-        backStyle={cardStyle.card}
-      />
-      {cardFlipped && <div className="d-flex justify-content-end">
-        <Button onClick={nextButtonHandler} variant="primary" className="fw-bold text-center p-3 mt-4 w-50">
+      frontComponent={<div className="fw-bold fs-5">{question.Answer}</div>}
+      backComponent={<div>{question.Question}</div>}
+      onClick={cardFlipHandler}
+      flipTrigger="disabled"
+      flipByProp={isCardFlipped}
+      direction="vertical"
+      containerStyle={cardStyle.container}
+      frontCss={cardStyle.cardCss}
+      frontStyle={cardStyle.card}
+      backCss={cardStyle.cardCss}
+      backStyle={cardStyle.card}
+    />
+    {cardFlipped && <Row>
+      <Col xs={6}>
+        <Button onClick={() => setShowModal(true)} variant="outline-warning" className="fw-bold text-center p-3 mt-4 w-100">
+          Blacklist & Next
+        </Button>
+      </Col>
+      <Col xs={6}>
+        <Button onClick={nextButtonHandler} variant="primary" className="fw-bold text-center p-3 mt-4 w-100">
           Next
         </Button>
-      </div>}
+      </Col>
+    </Row>}
+    <ConfirmBlacklistModal
+      show={showModal}
+      onHide={() => setShowModal(false)}
+      onSave={() => { setShowModal(false); nextButtonHandler(); }}
+      question={question}
+    />
   </>)
 }

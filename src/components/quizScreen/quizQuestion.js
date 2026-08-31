@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
-import { Button, Row } from "react-bootstrap";
+import { Button, Col,Row } from "react-bootstrap";
 import { shuffleArray } from "../../lib/helperFunctions";
+import ConfirmBlacklistModal from "../shared/confirmBlacklistModal";
 
 export default function QuizQuestion({ question, selection, setSelection, nextQuestionHandler }) {
   const isSata = question.Answer.length > 1;
   const parsedQuestion = sataObjMaker(question);
   const [sata, setSata] = useState(parsedQuestion.selectionObj);
   const [optionLetters, setOptionLetters] = useState([]);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     setSata(parsedQuestion.selectionObj);
@@ -25,7 +27,10 @@ export default function QuizQuestion({ question, selection, setSelection, nextQu
       return "outline-light";
     }
 
-    return answerObj[option] === sata[option] ? "success" : "danger"
+    if (answerObj[option] === sata[option])
+      return sata[option] ? "success" : "outline-success";
+    else
+      return sata[option] ? "outline-danger" : "danger";
   }
 
   function optionHandler(option) {
@@ -46,20 +51,35 @@ export default function QuizQuestion({ question, selection, setSelection, nextQu
       </span>
     </Row>
     {optionLetters.map(o => (
-      <Button key={o} onClick={() => optionHandler(o)} disabled={selection != null} variant={variantHandler(o)} className="text-center p-3 m-2 w-100">
-        {question["Option" + o]}
-      </Button>
+      <Row key={o} className="d-flex justify-content-center">
+        <Button key={o} onClick={() => optionHandler(o)} disabled={selection != null} variant={variantHandler(o)} className="text-center p-3 m-2 w-100">
+          {question["Option" + o]}
+        </Button>
+      </Row>
     ))}
-    {(!selection && question.Answer.length > 1) && <div className="d-flex justify-content-end">
+    {(!selection && question.Answer.length > 1) && <Row className="d-flex justify-content-end">
       <Button onClick={submitHandler} variant="primary" disabled={Object.values(sata).every(o => !o)} className="fw-bold text-center p-3 mt-4 w-50">
         Submit
       </Button>
-    </div>}
-    {selection && <div className="d-flex justify-content-end">
-      <Button onClick={nextQuestionHandler} variant="primary" className="fw-bold text-center p-3 mt-4 w-50">
-        Next
-      </Button>
-    </div>}
+    </Row>}
+    {selection && <Row>
+      <Col xs={6}>
+        <Button onClick={() => setShowModal(true)} variant="outline-warning" className="fw-bold text-center p-3 mt-4 w-100">
+          Blacklist & Next
+        </Button>
+      </Col>
+      <Col xs={6}>
+        <Button onClick={nextQuestionHandler} variant="primary" className="fw-bold text-center p-3 mt-4 w-100">
+          Next
+        </Button>
+      </Col>
+    </Row>}
+    <ConfirmBlacklistModal 
+      show={showModal}
+      onHide={() => setShowModal(false)}
+      onSave={() => { setShowModal(false); nextQuestionHandler(); }}
+      question={question}
+    />
   </>);
 }
 
