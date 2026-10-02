@@ -1,24 +1,27 @@
 export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Chapter1, Chapter2, ... ] }}}
-  ANAT9240: {
-    "All Chapters (Final Exam)": {
-      "Anatomy & Physiology": [ "10 - Skin", "11 - Skeletal Tissues", "12 - Axial Skeleton", "13 - Appendicular Skeleton", "14 - Articulations", "15 - Axial Muscles", "16 - Appendicular Muscles", "17 - Muscle Contraction", "27 - Blood", "28 - Heart", "29 - Blood Vessels", "30 - Circulation of Blood", "18 - Nervous System Cells", "19 - Nerve Signaling", "20 - Central Nervous System", "21 - Peripheral Nervous System", "22 - Autonomic Nervous System", "23 - General Senses", "24 - Special Senses", "35 - Respiratory Tract", "36 - Ventilation", "37 - Gas Exchange & Transport", "38 - Upper Digestive Tract", "39 - Lower Digestive Tract", "40 - Digestion & Absorption", "42 - Urinary System", "43 - Fluid & Electrolyte Balance", "44 - Acid-Base Balance", "45 - Male Reproductive System", "46 - Female Reproductive System", "31 - Lymphatic System", "32 - Innate Immunity", "33 - Adaptive Immunity", "25 - Endocrine Regulation", "26 - Endocrine Glands" ]
+  BSCN9300: {
+    "Midterm Exam": {
+      "Pharmacology for Canadian Health Care Practice": [ "1 - Nursing Practice in Canada & Drug Therapy", "2 - Pharmacological Priniciples", "3 - Legal & Ethical Considerations", "6 - Medication Errors: Preventing & Responding", "10 - Principles of Drug Administration", "11 - Analgesic Drugs", "16 - Antiparkinsonian Drugs" ]
     }
   },
-  PSYC9210: {
-    "Final Exam": { 
-      "Developmental Psychology: A Canadian Perspective": [ "5 - Middle & Late Childhood", "6 - Adolescence", "7 - Emerging & Early Adulthood", "8 & 9 - Middle & Late Adulthood", "10 - Death & Dying" ] 
+  BSCN9310: {
+    "Unit Test #1": {
+      "Understanding Pathophysiology": [ "4 - Altered Cellular and Tissue Biology", "5 - Fluids & Electrolytes,  Acids & Bases", "6 - Innate Immunity: Inflammation and Wound Healing", "7 - Adaptive Immunity", "8 - Infection and Defects in Mechanisms of Defense", "9 - Stress and Disease", "13 - Structure & Function of the Neurological System", "14 - Pain, Temperature, Sleep, & Sensory Function", "15 - Alterations in Cognitive Systems, Cerebral Hemodynamics, & Motor Function", "16 - Disorders of the Central & Peripheral Nervous Systems & Neuromuscular Junction" ]
     } 
   },
-  BSCN9200: {
-    "Final Exam": { 
-      "Canadian Fundamentals of Nursing": [ "22 - Developmental Theories", "24 - Young to Middle Adulthood", "25 - Older Persons", "26 - The Experience of Loss, Death, and Grief" ],
-      "Leifer's Introduction to Maternity & Pediatric Nursing": [ "13 - Pediatric Health Promotion", "15 - The Toddler", "16 - The Preschool Child", "32 - Childhood Communicable Diseases", "22 - Chronic Conditions and Palliative Care: Caring for the Child and Family", "33 - The Child with an Emotional or Behavioural Condition", "34 - Other" ]
+  BSCN9320: {
+    "Midterm Exam": {
+      "Physical Examination & Health Assessment": [ "1 - Critical Thinking & Evidence-Informed Assessment", "2 - Health Promotion in the Context of Health Assessment", "3 - A Relational Approach to Cultural & Social Considerations in Health Assessment", "4 - The Interview", "5 - The Complete Health History", "9 - Assessment Techniques & the Clinical Setting", "10 - General Survey, Measurement, & Vital Signs", "11 - Pain Assessment", "13 - Skin, Hair, & Nails", "20 - Heart & Neck Vessels", "21 - Peripheral Vascular System & Lymphatic System" ]
     } 
   },
-  BSCN9230: {
-    "Midterm & Final Exams": { 
-      "Canadian Clinical Nursing Skills & Techniques (2nd Ed.)": [ "3 - Communication and Collaboration", "4 - Documentation and Informatics", "5 - Medical Asepsis", "7 - Vital Signs", "11 - Safe Patient Handling, Transfer, & Positioning", "12 - Exercise, Mobility, & Immobilization Devices", "14 - Patient Safety", "16 - Pain Assessment and Management", "18 - Personal Hygiene & Bed Making", "31 - Oral Nutrition", "34 - Urinary Elimination and Catheterization", "35 - Bowel Elimination and Gastric Intubation", "39 - Prevention & Care of Skin Breakdown" ],
-      "Medical Terminology": [ "Week 2", "Week 3", "Week 4", "Week 5", "Week 6" ]
+  BSCN9330: {
+    "Midterm Exam": {
+      "Canadian Clinical Nursing Skills and Techniques": [ "20 - Safe Medication Preparation", "21 - Nonparenteral Medications", "22 - Parenteral Medications", "29 - Vascular Access & Infusion Therapy" ]
+    }
+  },
+  BSCN9370: {
+    "Midterm Exam": { 
+      "Medical-Surgical Nursing in Canada": [ "5 - Chronic Illness", "10 - Pain", "13 - Palliative & End-of-Life Care", "19 - Fluid, Electrolyte, & Acid-Base Balances", "24 - Nursing Management: Visual & Auditory Conditions", "59 - Nursing Management: Acute Intracranial Conditions", "60 - Nursing Management: Stroke", "62 - Nursing Management: Delirium, Alzheimer's Disease, & Other Dementias" ]
     } 
   }
 }
