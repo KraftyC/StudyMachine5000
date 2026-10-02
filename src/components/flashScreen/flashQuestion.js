@@ -40,7 +40,7 @@ export default function FlashQuestion({ question, onFlip, onNext, cardFlipped })
     {cardFlipped && <Row>
       <Col xs={6}>
         <Button onClick={() => setShowModal(true)} variant="outline-warning" className="fw-bold text-center p-3 mt-4 w-100">
-          Blacklist & Next
+          Blacklist
         </Button>
       </Col>
       <Col xs={6}>

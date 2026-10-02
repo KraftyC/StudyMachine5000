@@ -156,7 +156,7 @@ export default function CipherQuestion({ question, onNext }) {
     {isFinished && <Row>
       <Col xs={6}>
         <Button onClick={() => setShowModal(true)} variant="outline-warning" className="fw-bold text-center p-3 mt-4 w-100">
-          Blacklist & Next
+          Blacklist
         </Button>
       </Col>
       <Col xs={6}>
