@@ -11,7 +11,7 @@ export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Cha
   },
   BSCN9320: {
     "Midterm Exam": {
-      "Physical Examination & Health Assessment": [ "1 - Critical Thinking & Evidence-Informed Assessment", "2 - Health Promotion in the Context of Health Assessment", "3 - A Relational Approach to Cultural & Social Considerations in Health Assessment", "4 - The Interview", "5 - The Complete Health History", "9 - Assessment Techniques & the Clinical Setting", "10 - General Survey, Measurement, & Vital Signs", "11 - Pain Assessment", "13 - Skin, Hair, & Nails", "20 - Heart & Neck Vessels", "21 - Peripheral Vascular System & Lymphatic System" ]
+      "Physical Examination & Health Assessment": [ "1 - Critical Thinking & Evidence-Informed Assessment", "2 - Health Promotion in the Context of Health Assessment", "3 - A Relational Approach to Cultural & Social Considerations in Health Assessment", "4 - The Interview", "5 - The Complete Health History", "9 - Assessment Techniques & the Clinical Setting", "10 - General Survey, Measurement, & Vital Signs", "11 - Pain Assessment", "13 - Skin, Hair, & Nails", "18 - Breasts & Regional Lymphatic System", "19 - Thorax & Lungs", "20 - Heart & Neck Vessels", "21 - Peripheral Vascular System & Lymphatic System" ]
     } 
   },
   BSCN9330: {
