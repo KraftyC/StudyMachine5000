@@ -1,7 +1,7 @@
 export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Chapter1, Chapter2, ... ] }}}
   BSCN9300: {
     "Midterm Exam": {
-      "Pharmacology for Canadian Health Care Practice": [ "1 - Nursing Practice in Canada & Drug Therapy", "2 - Pharmacological Priniciples", "3 - Legal & Ethical Considerations", "6 - Medication Errors: Preventing & Responding", "10 - Principles of Drug Administration", "11 - Analgesic Drugs", "16 - Antiparkinsonian Drugs" ]
+      "Pharmacology for Canadian Health Care Practice": [ "1 - Nursing Practice in Canada & Drug Therapy", "2 - Pharmacological Priniciples", "3 - Legal & Ethical Considerations", "6 - Medication Errors: Preventing & Responding", "10 - Principles of Drug Administration", "11 - Analgesic Drugs", "16 - Antiparkinsonian Drugs", "17 - Psychotherapeutic Drugs", "23 - Antihypertensive Drugs" ]
     }
   },
   BSCN9310: {
@@ -16,7 +16,7 @@ export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Cha
   },
   BSCN9330: {
     "Midterm Exam": {
-      "Canadian Clinical Nursing Skills and Techniques": [ "20 - Safe Medication Preparation", "21 - Nonparenteral Medications", "22 - Parenteral Medications", "29 - Vascular Access & Infusion Therapy" ]
+      "Canadian Clinical Nursing Skills and Techniques": [ "20 - Safe Medication Preparation", "21 - Nonparenteral Medications", "22 - Parenteral Medications", "29 - Vascular Access & Infusion Therapy", "30 - Blood Therapy" ]
     }
   },
   BSCN9370: {
