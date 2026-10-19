@@ -1,7 +1,7 @@
 export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Chapter1, Chapter2, ... ] }}}
   BSCN9300: {
     "Midterm Exam": {
-      "Pharmacology for Canadian Health Care Practice": [ "1 - Nursing Practice in Canada & Drug Therapy", "2 - Pharmacological Priniciples", "3 - Legal & Ethical Considerations", "6 - Medication Errors: Preventing & Responding", "10 - Principles of Drug Administration", "11 - Analgesic Drugs", "16 - Antiparkinsonian Drugs", "17 - Psychotherapeutic Drugs", "23 - Antihypertensive Drugs" ]
+      "Pharmacology for Canadian Health Care Practice": [ "1 - Nursing Practice in Canada & Drug Therapy", "2 - Pharmacological Priniciples", "3 - Legal & Ethical Considerations", "6 - Medication Errors: Preventing & Responding", "10 - Principles of Drug Administration", "11 - Analgesic Drugs", "16 - Antiparkinsonian Drugs", "17 - Psychotherapeutic Drugs", "23 - Antihypertensive Drugs", "24 - Antianginal Drugs", "25 - Heart Failure Drugs" ]
     }
   },
   BSCN9310: {
