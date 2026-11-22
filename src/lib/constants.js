@@ -10,12 +10,12 @@ export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Cha
     } 
   },
   BSCN9320: {
-    "Final Exam (Cumulative)": {
-      "Physical Examination & Health Assessment": [ "1 - Critical Thinking & Evidence-Informed Assessment", "2 - Health Promotion in the Context of Health Assessment", "3 - A Relational Approach to Cultural & Social Considerations in Health Assessment", "4 - The Interview", "5 - The Complete Health History", "6 - Mental Health Assessment", "9 - Assessment Techniques & the Clinical Setting", "10 - General Survey, Measurement, & Vital Signs", "11 - Pain Assessment", "12 - Nutritional Assessment & Nursing Practice", "13 - Skin, Hair, & Nails", "14 - Head, Face, & Neck, Including Regional Lymphatic System", "15 - Eyes", "16 - Ears", "17 - Nose, Mouth, & Throat", "18 - Breasts & Regional Lymphatic System", "19 - Thorax & Lungs", "20 - Heart & Neck Vessels", "21 - Peripheral Vascular System & Lymphatic System", "22 - The Abdomen", "24 - Musculo-Skeletal System", "25 - Neurological System", "26 - Male Genitourinary System", "27 - Female Genitourinary System", "28 - The Complete Health Assessment: Putting It All Together", "29 - Bedside Assessment & Reporting", "30 - Pregnancy", "31 - Assessment of the Older Adult" ]
-    },
     "Final Exam (2nd Half Only)": {
       "Physical Examination & Health Assessment": [ "6 - Mental Health Assessment", "12 - Nutritional Assessment & Nursing Practice", "14 - Head, Face, & Neck, Including Regional Lymphatic System", "15 - Eyes", "16 - Ears", "17 - Nose, Mouth, & Throat", "22 - The Abdomen", "24 - Musculo-Skeletal System", "25 - Neurological System", "26 - Male Genitourinary System", "27 - Female Genitourinary System", "28 - The Complete Health Assessment: Putting It All Together", "29 - Bedside Assessment & Reporting", "30 - Pregnancy", "31 - Assessment of the Older Adult" ]
-    } 
+    },
+    "Final Exam (Cumulative)": {
+      "Physical Examination & Health Assessment": [ "1 - Critical Thinking & Evidence-Informed Assessment", "2 - Health Promotion in the Context of Health Assessment", "3 - A Relational Approach to Cultural & Social Considerations in Health Assessment", "4 - The Interview", "5 - The Complete Health History", "6 - Mental Health Assessment", "9 - Assessment Techniques & the Clinical Setting", "10 - General Survey, Measurement, & Vital Signs", "11 - Pain Assessment", "12 - Nutritional Assessment & Nursing Practice", "13 - Skin, Hair, & Nails", "14 - Head, Face, & Neck, Including Regional Lymphatic System", "15 - Eyes", "16 - Ears", "17 - Nose, Mouth, & Throat", "18 - Breasts & Regional Lymphatic System", "19 - Thorax & Lungs", "20 - Heart & Neck Vessels", "21 - Peripheral Vascular System & Lymphatic System", "22 - The Abdomen", "24 - Musculo-Skeletal System", "25 - Neurological System", "26 - Male Genitourinary System", "27 - Female Genitourinary System", "28 - The Complete Health Assessment: Putting It All Together", "29 - Bedside Assessment & Reporting", "30 - Pregnancy", "31 - Assessment of the Older Adult" ]
+    }
   },
   BSCN9330: {
     "Final Exam": {
