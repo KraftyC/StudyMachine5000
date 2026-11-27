@@ -1,7 +1,7 @@
 export const CHAPTER_GROUPS = {  // { CourseCode: { GroupName: { Textbook: [ Chapter1, Chapter2, ... ] }}}
   BSCN9300: {
     "Final Exam": {
-      "Pharmacology for Canadian Health Care Practice": [ "3 - Legal & Ethical Considerations", "26 - Diuretic Drugs", "27 - Antidysrhythmic Drugs", "28 - Coagulation Modifier Drugs", "33 - Antidiabetic Drugs", "37 - Antihistamines, Decongestants, Antitussives, & Expectorants", "38 - Respiratory Drugs", "39 - Acid-Controlling Drugs", "40 - Antidiarrheal Drugs & Laxatives", "41 - Antiemetic & Antinausea Drugs", "43 - Antibiotics Part 1: Sulfonamides, Penicillins, Cephalosporins, Macrolides, & Tetracyclines", "44 - Antibiotics Part 2: Aminoglycosides, Fluoroquinolones, & Other Drugs", "49 - Anti-inflammatory & Antigout Drugs" ]
+      "Pharmacology for Canadian Health Care Practice": [ "3 - Legal & Ethical Considerations", "26 - Diuretic Drugs", "27 - Antidysrhythmic Drugs", "28 - Coagulation Modifier Drugs", "33 - Antidiabetic Drugs", "37 - Antihistamines, Decongestants, Antitussives, & Expectorants", "38 - Respiratory Drugs", "39 - Acid-Controlling Drugs", "40 - Antidiarrheal Drugs & Laxatives", "41 - Antiemetic & Antinausea Drugs", "43 - Antibiotics Part 1: Sulfonamides, Penicillins, Cephalosporins, Macrolides, & Tetracyclines", "44 - Antibiotics Part 2: Aminoglycosides, Fluoroquinolones, & Other Drugs", "49 - Anti-Inflammatory & Antigout Drugs" ]
     }
   },
   BSCN9310: {
